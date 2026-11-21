@@ -1,0 +1,1534 @@
+{
+ "helpDeskPhone": "973-263-4262",
+ "lastChecked": "2026-11-21",
+ "townHall": {
+  "address": "1001 Parsippany Boulevard, Parsippany, NJ 07054",
+  "mainPhone": "973-263-4350"
+ },
+ "topics": [
+  {
+   "id": "mayor",
+   "keywords": {
+    "en": [
+     "mayor",
+     "who is the mayor",
+     "pulkit desai"
+    ],
+    "es": [
+     "alcalde",
+     "quien es el alcalde",
+     "pulkit desai"
+    ]
+   },
+   "en": {
+    "lead": "The mayor of Parsippany-Troy Hills is Pulkit Desai.",
+    "details": [
+     "Mayor Desai is a former U.S. Marine.",
+     "His office runs the Mayor's Action Center, the township's help line for resident questions and concerns."
+    ],
+    "contact": [
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Mayor's Office, Town Hall",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     },
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El alcalde de Parsippany-Troy Hills es Pulkit Desai.",
+    "details": [
+     "El alcalde Desai es un ex marine de los Estados Unidos.",
+     "Su oficina dirige el Centro de Acción del Alcalde, la línea de ayuda del municipio para preguntas e inquietudes de los residentes."
+    ],
+    "contact": [
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Oficina del Alcalde, Ayuntamiento",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     },
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Government/Officials?menuId=9LMPr1-kZU4%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "handicap-parking",
+   "keywords": {
+    "en": [
+     "handicap parking",
+     "disabled parking",
+     "disability placard",
+     "handicap placard",
+     "accessible parking"
+    ],
+    "es": [
+     "estacionamiento para discapacitados",
+     "cartel para discapacitados",
+     "placa para discapacitados",
+     "estacionamiento accesible"
+    ]
+   },
+   "en": {
+    "lead": "Permanent disability placards and wheelchair symbol plates come from the NJ Motor Vehicle Commission, not Town Hall.",
+    "details": [
+     "Complete Form SP-41, certified by a medical practitioner. There is no fee, and you recertify every 3 years.",
+     "Apply in person at an MVC agency or by mail to MVC Special Plate Unit, PO Box 015, Trenton, NJ 08666-0015.",
+     "For a temporary placard only, apply through the Parsippany Police Department with a physician-certified application and a $4 check or money order.",
+     "This chat has no verified Parsippany program for a reserved handicap space in front of a home, the way some towns do. If you need one, ask the Mayor's Action Center and they will route you."
+    ],
+    "contact": [
+     {
+      "label": "NJ Motor Vehicle Commission, disability plates and placards",
+      "value": "https://www.nj.gov/mvc/vehicles/disability.htm"
+     },
+     {
+      "label": "Parsippany Police (non-emergency, temporary placards)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los carteles permanentes para discapacitados y las placas con el símbolo de silla de ruedas los emite la Comisión de Vehículos Motorizados de NJ, no el Ayuntamiento.",
+    "details": [
+     "Complete el Formulario SP-41, certificado por un profesional médico. No tiene costo y se recertifica cada 3 años.",
+     "Solicítelo en persona en una agencia de MVC o por correo a MVC Special Plate Unit, PO Box 015, Trenton, NJ 08666-0015.",
+     "Solo para un cartel temporal, solicítelo a través del Departamento de Policía de Parsippany con una solicitud certificada por un médico y un cheque o giro postal de $4.",
+     "Este chat no tiene verificado un programa de Parsippany para un espacio reservado frente a una casa. Si necesita uno, pregunte en el Centro de Acción del Alcalde."
+    ],
+    "contact": [
+     {
+      "label": "Comisión de Vehículos Motorizados de NJ, placas y carteles para discapacitados",
+      "value": "https://www.nj.gov/mvc/vehicles/disability.htm"
+     },
+     {
+      "label": "Policía de Parsippany (no emergencias, carteles temporales)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.nj.gov/mvc/vehicles/disability.htm",
+   "sourceLabel": "NJ Motor Vehicle Commission"
+  },
+  {
+   "id": "birth-certificate",
+   "keywords": {
+    "en": [
+     "birth certificate",
+     "death certificate",
+     "vital records",
+     "certified copy"
+    ],
+    "es": [
+     "acta de nacimiento",
+     "certificado de nacimiento",
+     "acta de defuncion",
+     "registros vitales"
+    ]
+   },
+   "en": {
+    "lead": "Certified copies of birth, marriage and death records are issued by the Township Clerk / Registrar's Office at Town Hall.",
+    "details": [
+     "The Registrar provides certified copies of birth, marriage/civil union and death records for events that occurred in Parsippany-Troy Hills.",
+     "Use the Vital Records request forms on the township Forms page, or apply in person.",
+     "Payment for vital records is by cash or money order only."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     },
+     {
+      "label": "Clerk/Registrar's Office",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las copias certificadas de actas de nacimiento, matrimonio y defunción las emite la Oficina del Secretario Municipal / Registro Civil en el Ayuntamiento.",
+    "details": [
+     "El Registro Civil proporciona copias certificadas de actas de nacimiento, matrimonio/unión civil y defunción de eventos ocurridos en Parsippany-Troy Hills.",
+     "Use los formularios de Registros Vitales en la página de Formularios del municipio, o solicítelos en persona.",
+     "El pago de registros vitales es solo en efectivo o giro postal."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     },
+     {
+      "label": "Oficina del Secretario / Registro Civil",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=lJ24D1CroaA=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "marriage-license",
+   "keywords": {
+    "en": [
+     "marriage license",
+     "civil union license",
+     "get married"
+    ],
+    "es": [
+     "licencia de matrimonio",
+     "licencia de union civil",
+     "casarse"
+    ]
+   },
+   "en": {
+    "lead": "Marriage and civil union licenses in Parsippany are issued by the Clerk / Registrar's Office, by appointment only.",
+    "details": [
+     "Call 973-263-4351 to schedule an appointment.",
+     "The steps are in the township form 'Entering into a Marriage or Civil Union' on the Forms page.",
+     "Payment is by cash or money order only."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las licencias de matrimonio y unión civil en Parsippany las emite la Oficina del Secretario / Registro Civil, solo con cita previa.",
+    "details": [
+     "Llame al 973-263-4351 para programar una cita.",
+     "Los pasos están en el formulario del municipio 'Entering into a Marriage or Civil Union' en la página de Formularios.",
+     "El pago es solo en efectivo o giro postal."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=lJ24D1CroaA=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "dog-license",
+   "keywords": {
+    "en": [
+     "dog license",
+     "license my dog",
+     "dog registration"
+    ],
+    "es": [
+     "licencia para perros",
+     "registrar mi perro",
+     "licencia de perro"
+    ]
+   },
+   "en": {
+    "lead": "Dog licenses in Parsippany are handled by the Township Clerk's Office.",
+    "details": [
+     "The Dog License Application and instructions are on the township Forms page.",
+     "The Clerk's Office processes dog licenses along with other municipal licenses and permits."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las licencias para perros en Parsippany las gestiona la Oficina del Secretario Municipal.",
+    "details": [
+     "La solicitud de licencia para perros y sus instrucciones están en la página de Formularios del municipio.",
+     "La Oficina del Secretario procesa las licencias para perros junto con otras licencias y permisos municipales."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/forms",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "opra",
+   "keywords": {
+    "en": [
+     "opra",
+     "public records request",
+     "records request",
+     "open public records"
+    ],
+    "es": [
+     "opra",
+     "solicitud de registros publicos",
+     "registros publicos"
+    ]
+   },
+   "en": {
+    "lead": "OPRA public records requests in Parsippany go to the Township Clerk, who is the Custodian of Records.",
+    "details": [
+     "Use the OPRA General Request form on the township Forms page. Police records use the separate OPRA Police Request form.",
+     "The Clerk's Office receives and processes OPRA requests according to state law."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las solicitudes de registros públicos OPRA en Parsippany van al Secretario Municipal, que es el Custodio de Registros.",
+    "details": [
+     "Use el formulario OPRA General en la página de Formularios del municipio. Los registros policiales usan el formulario OPRA policial separado.",
+     "La Oficina del Secretario recibe y procesa las solicitudes OPRA según la ley estatal."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/forms",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "voter-registration",
+   "keywords": {
+    "en": [
+     "voter registration",
+     "register to vote",
+     "vote by mail",
+     "mail in ballot",
+     "election"
+    ],
+    "es": [
+     "registro de votantes",
+     "registrarse para votar",
+     "voto por correo",
+     "elecciones"
+    ]
+   },
+   "en": {
+    "lead": "Voter registration forms and mail-in ballot applications are available from the Parsippany Township Clerk's Office.",
+    "details": [
+     "The Clerk administers local elections and can provide voter registration forms and absentee / mail-in ballot applications.",
+     "Statewide registration and election information is at nj.gov."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los formularios de registro de votantes y las solicitudes de voto por correo están disponibles en la Oficina del Secretario Municipal de Parsippany.",
+    "details": [
+     "El Secretario administra las elecciones locales y puede proporcionar formularios de registro y solicitudes de voto en ausencia / por correo.",
+     "La información estatal sobre registro y elecciones está en nj.gov."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=lJ24D1CroaA=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "town-hall-hours",
+   "keywords": {
+    "en": [
+     "town hall hours",
+     "town hall",
+     "clerk office",
+     "what time does town hall open",
+     "municipal building"
+    ],
+    "es": [
+     "horario del ayuntamiento",
+     "ayuntamiento",
+     "oficina del secretario",
+     "a que hora abre el ayuntamiento"
+    ]
+   },
+   "en": {
+    "lead": "Town Hall in Parsippany is open Monday through Friday, 9:00 AM to 5:00 PM.",
+    "details": [
+     "Town Hall is the Municipal Building at 1001 Parsippany Boulevard.",
+     "Some departments keep different hours, for example Recycling & Sanitation is Monday through Friday, 8:00 AM to 4:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Town Hall",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Ayuntamiento de Parsippany está abierto de lunes a viernes, de 9:00 AM a 5:00 PM.",
+    "details": [
+     "El Ayuntamiento es el Edificio Municipal en 1001 Parsippany Boulevard.",
+     "Algunos departamentos tienen horarios diferentes, por ejemplo Reciclaje y Saneamiento es de lunes a viernes, de 8:00 AM a 4:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Ayuntamiento",
+      "value": "1001 Parsippany Boulevard, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "property-taxes",
+   "keywords": {
+    "en": [
+     "property taxes",
+     "tax bill",
+     "pay my taxes",
+     "tax payment",
+     "when are taxes due"
+    ],
+    "es": [
+     "impuestos a la propiedad",
+     "impuesto predial",
+     "pagar mis impuestos",
+     "cuando vencen los impuestos"
+    ]
+   },
+   "en": {
+    "lead": "Property taxes in Parsippany are paid quarterly, due February 1, May 1, August 1 and November 1, with a 10-day grace period.",
+    "details": [
+     "The Tax Department is in Town Hall. Tax and Finance share the number 973-263-4398.",
+     "You can look up and pay a tax bill through the township's online tax payment link on parsippany.net."
+    ],
+    "contact": [
+     {
+      "label": "Tax Department",
+      "value": "973-263-4398",
+      "href": "tel:+19732634398"
+     },
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los impuestos a la propiedad en Parsippany se pagan trimestralmente, con vencimiento el 1 de febrero, 1 de mayo, 1 de agosto y 1 de noviembre, con un período de gracia de 10 días.",
+    "details": [
+     "El Departamento de Impuestos está en el Ayuntamiento. Impuestos y Finanzas comparten el número 973-263-4398.",
+     "Puede consultar y pagar su factura de impuestos a través del enlace de pago en línea en parsippany.net."
+    ],
+    "contact": [
+     {
+      "label": "Departamento de Impuestos",
+      "value": "973-263-4398",
+      "href": "tel:+19732634398"
+     },
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "tax-appeal",
+   "keywords": {
+    "en": [
+     "tax appeal",
+     "appeal my assessment",
+     "assessment appeal",
+     "property assessment",
+     "appeal my property tax",
+     "property tax assessment",
+     "appeal my tax"
+    ],
+    "es": [
+     "apelacion de impuestos",
+     "apelar mi evaluacion",
+     "evaluacion de propiedad"
+    ]
+   },
+   "en": {
+    "lead": "A property tax appeal challenges your assessment, not your tax bill, and is filed with the Morris County Board of Taxation.",
+    "details": [
+     "The regular NJ appeal deadline is April 1 (May 1 if your town had a revaluation or reassessment that year).",
+     "Start with the township Tax Assessor in Town Hall to review your assessment before filing.",
+     "Morris County Board of Taxation is in Morristown."
+    ],
+    "contact": [
+     {
+      "label": "Tax Department / Assessor, Town Hall",
+      "value": "973-263-4398",
+      "href": "tel:+19732634398"
+     },
+     {
+      "label": "Morris County",
+      "value": "https://www.morriscountynj.gov"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Una apelación de impuestos a la propiedad cuestiona su evaluación, no su factura, y se presenta ante la Junta de Impuestos del Condado de Morris.",
+    "details": [
+     "La fecha límite regular de apelación en NJ es el 1 de abril (1 de mayo si su municipio tuvo una revaluación ese año).",
+     "Comience con el Asesor de Impuestos del municipio en el Ayuntamiento para revisar su evaluación antes de presentar la apelación.",
+     "La Junta de Impuestos del Condado de Morris está en Morristown."
+    ],
+    "contact": [
+     {
+      "label": "Departamento de Impuestos / Asesor, Ayuntamiento",
+      "value": "973-263-4398",
+      "href": "tel:+19732634398"
+     },
+     {
+      "label": "Condado de Morris",
+      "value": "https://www.morriscountynj.gov"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "pay-ticket",
+   "keywords": {
+    "en": [
+     "pay a ticket",
+     "pay my ticket",
+     "traffic ticket",
+     "parking ticket",
+     "pay ticket online"
+    ],
+    "es": [
+     "pagar una multa",
+     "pagar mi multa",
+     "multa de trafico",
+     "multa de estacionamiento"
+    ]
+   },
+   "en": {
+    "lead": "You can pay a Parsippany traffic or parking ticket online through NJMCdirect, the NJ courts payment system.",
+    "details": [
+     "You will need the court ID, ticket number and license plate or driver's license number shown on the ticket.",
+     "Paying the fine is a guilty plea if the ticket does not require a court appearance. To plead not guilty, follow the instructions on the ticket or contact the court.",
+     "Parsippany Municipal Court code and case lookup are at njcourts.gov."
+    ],
+    "contact": [
+     {
+      "label": "Parsippany Municipal Court",
+      "value": "973-263-4290",
+      "href": "tel:+19732634290"
+     },
+     {
+      "label": "NJMCdirect / NJ Courts",
+      "value": "https://www.njcourts.gov/self-help/municipal-court"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Puede pagar una multa de tráfico o estacionamiento de Parsippany en línea a través de NJMCdirect, el sistema de pago de los tribunales de NJ.",
+    "details": [
+     "Necesitará el ID del tribunal, el número de la multa y la placa o número de licencia que aparecen en la multa.",
+     "Pagar la multa es una declaración de culpabilidad si la multa no requiere comparecencia. Para declararse no culpable, siga las instrucciones de la multa o contacte al tribunal.",
+     "El código del Tribunal Municipal de Parsippany y la búsqueda de casos están en njcourts.gov."
+    ],
+    "contact": [
+     {
+      "label": "Tribunal Municipal de Parsippany",
+      "value": "973-263-4290",
+      "href": "tel:+19732634290"
+     },
+     {
+      "label": "NJMCdirect / Tribunales de NJ",
+      "value": "https://www.njcourts.gov/self-help/municipal-court"
+     }
+    ]
+   },
+   "source": "https://www.njcourts.gov/self-help/municipal-court",
+   "sourceLabel": "NJ Courts"
+  },
+  {
+   "id": "court",
+   "keywords": {
+    "en": [
+     "municipal court",
+     "court date",
+     "court office"
+    ],
+    "es": [
+     "tribunal municipal",
+     "fecha de corte",
+     "tribunal"
+    ]
+   },
+   "en": {
+    "lead": "Parsippany Municipal Court is at 3333 Route 46 East, separate from Town Hall.",
+    "details": [
+     "The court handles traffic, ordinance and disorderly-persons matters in Parsippany-Troy Hills.",
+     "Court email is mrsparsippany.mbx@njcourts.gov."
+    ],
+    "contact": [
+     {
+      "label": "Municipal Court",
+      "value": "973-263-4290",
+      "href": "tel:+19732634290"
+     },
+     {
+      "label": "Municipal Court",
+      "value": "3333 Route 46 East, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Tribunal Municipal de Parsippany está en 3333 Route 46 East, separado del Ayuntamiento.",
+    "details": [
+     "El tribunal atiende casos de tráfico, ordenanzas y delitos menores en Parsippany-Troy Hills.",
+     "El correo del tribunal es mrsparsippany.mbx@njcourts.gov."
+    ],
+    "contact": [
+     {
+      "label": "Tribunal Municipal",
+      "value": "973-263-4290",
+      "href": "tel:+19732634290"
+     },
+     {
+      "label": "Tribunal Municipal",
+      "value": "3333 Route 46 East, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "sewer-bill",
+   "keywords": {
+    "en": [
+     "sewer bill",
+     "water bill",
+     "water utility",
+     "sewer utility"
+    ],
+    "es": [
+     "factura de alcantarillado",
+     "factura de agua",
+     "servicio de agua"
+    ]
+   },
+   "en": {
+    "lead": "Water and sewer in Parsippany are township utilities, handled by different offices in Town Hall.",
+    "details": [
+     "Water Utility: 973-263-7099.",
+     "Sanitary Sewer Utility: 973-428-7593."
+    ],
+    "contact": [
+     {
+      "label": "Water Utility",
+      "value": "973-263-7099",
+      "href": "tel:+19732637099"
+     },
+     {
+      "label": "Sanitary Sewer Utility",
+      "value": "973-428-7593",
+      "href": "tel:+19734287593"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El agua y el alcantarillado en Parsippany son servicios del municipio, gestionados por oficinas diferentes en el Ayuntamiento.",
+    "details": [
+     "Servicio de Agua: 973-263-7099.",
+     "Servicio de Alcantarillado Sanitario: 973-428-7593."
+    ],
+    "contact": [
+     {
+      "label": "Servicio de Agua",
+      "value": "973-263-7099",
+      "href": "tel:+19732637099"
+     },
+     {
+      "label": "Alcantarillado Sanitario",
+      "value": "973-428-7593",
+      "href": "tel:+19734287593"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "garbage-schedule",
+   "keywords": {
+    "en": [
+     "garbage",
+     "recycling",
+     "trash pickup",
+     "garbage schedule",
+     "recycling schedule",
+     "recycle coach"
+    ],
+    "es": [
+     "basura",
+     "reciclaje",
+     "recogida de basura",
+     "horario de basura"
+    ]
+   },
+   "en": {
+    "lead": "Parsippany collects garbage and single-stream recycling at the curb, and your exact pickup day depends on your address.",
+    "details": [
+     "Trucks start at 6:00 AM, so put containers out the night before. Containers cannot be larger than 35 gallons or weigh more than 60 pounds.",
+     "Recycling is collected once a week as a single stream: bottles, cans, glass, plastic and mixed paper together.",
+     "Check your address-specific dates with the Recycle Coach tool linked from the township site, or call Recycling & Sanitation.",
+     "Recycling Yard hours: Monday-Friday 7:15 AM-2:45 PM, Saturday 8:00 AM-1:45 PM."
+    ],
+    "contact": [
+     {
+      "label": "Recycling & Sanitation",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Parsippany recoge la basura y el reciclaje de flujo único en la acera, y su día exacto de recogida depende de su dirección.",
+    "details": [
+     "Los camiones comienzan a las 6:00 AM, así que saque los contenedores la noche anterior. Los contenedores no pueden superar 35 galones ni 60 libras.",
+     "El reciclaje se recoge una vez por semana en un solo contenedor: botellas, latas, vidrio, plástico y papel mezclado.",
+     "Consulte las fechas para su dirección con la herramienta Recycle Coach enlazada desde el sitio del municipio, o llame a Reciclaje y Saneamiento.",
+     "Horario del Patio de Reciclaje: lunes a viernes 7:15 AM-2:45 PM, sábado 8:00 AM-1:45 PM."
+    ],
+    "contact": [
+     {
+      "label": "Reciclaje y Saneamiento",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=0M3eC9WwWso%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "missed-pickup",
+   "keywords": {
+    "en": [
+     "missed pickup",
+     "missed garbage",
+     "trash was not picked up",
+     "recycling was not picked up",
+     "was not picked up",
+     "not picked up",
+     "garbage was not picked up",
+     "did not pick up my garbage"
+    ],
+    "es": [
+     "no recogieron",
+     "recogida perdida",
+     "no pasaron por la basura"
+    ]
+   },
+   "en": {
+    "lead": "If your garbage or recycling was missed in Parsippany, call Recycling & Sanitation at 973-263-7273.",
+    "details": [
+     "Leave the container at the curb until you speak with the department, unless they tell you otherwise.",
+     "Make sure the container was out before 6:00 AM and was not over 60 pounds or larger than 35 gallons, which are common reasons for a missed pickup."
+    ],
+    "contact": [
+     {
+      "label": "Recycling & Sanitation",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Si no recogieron su basura o reciclaje en Parsippany, llame a Reciclaje y Saneamiento al 973-263-7273.",
+    "details": [
+     "Deje el contenedor en la acera hasta hablar con el departamento, a menos que le indiquen lo contrario.",
+     "Asegúrese de que el contenedor estaba fuera antes de las 6:00 AM y no superaba las 60 libras ni los 35 galones, causas comunes de una recogida perdida."
+    ],
+    "contact": [
+     {
+      "label": "Reciclaje y Saneamiento",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=0M3eC9WwWso%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "bulk-pickup",
+   "keywords": {
+    "en": [
+     "bulk pickup",
+     "bulky items",
+     "furniture pickup",
+     "large items"
+    ],
+    "es": [
+     "recogida de objetos grandes",
+     "recogida de muebles",
+     "objetos voluminosos"
+    ]
+   },
+   "en": {
+    "lead": "Bulky household items in Parsippany are picked up on your second garbage collection day of the week.",
+    "details": [
+     "Bulky waste includes furniture, chairs and sofas (not sofa beds or recliners), and carpet cut, rolled and tied in three-foot lengths.",
+     "For a whole-house cleanout, the township does not pick that up at the curb; you need a private hauler or container.",
+     "Call Recycling & Sanitation to confirm an item before you put it out."
+    ],
+    "contact": [
+     {
+      "label": "Recycling & Sanitation",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los objetos grandes del hogar en Parsippany se recogen en su segundo día de recogida de basura de la semana.",
+    "details": [
+     "Los objetos voluminosos incluyen muebles, sillas y sofás (no sofás cama ni sillones reclinables), y alfombra cortada, enrollada y atada en tramos de tres pies.",
+     "Para la limpieza de una casa entera, el municipio no lo recoge en la acera; necesita un transportista privado o un contenedor.",
+     "Llame a Reciclaje y Saneamiento para confirmar un artículo antes de sacarlo."
+    ],
+    "contact": [
+     {
+      "label": "Reciclaje y Saneamiento",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=0M3eC9WwWso%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "leaf-pickup",
+   "keywords": {
+    "en": [
+     "leaf pickup",
+     "yard waste",
+     "leaves",
+     "brush pickup"
+    ],
+    "es": [
+     "recogida de hojas",
+     "desechos de jardin",
+     "hojas",
+     "ramas"
+    ]
+   },
+   "en": {
+    "lead": "Yard waste in Parsippany, including leaves, grass and brush, is collected weekly from April through December.",
+    "details": [
+     "Branches must be no more than 3 inches in diameter and 3 feet long.",
+     "You can also bring yard waste to the Yard Waste Pit / Recycling Yard on Pumphouse Road, Monday-Friday during posted hours.",
+     "Call Recycling & Sanitation for your street's schedule."
+    ],
+    "contact": [
+     {
+      "label": "Recycling & Sanitation",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los desechos de jardín en Parsippany, incluidas hojas, césped y ramas, se recogen semanalmente de abril a diciembre.",
+    "details": [
+     "Las ramas no deben superar 3 pulgadas de diámetro y 3 pies de largo.",
+     "También puede llevar desechos de jardín al patio de reciclaje en Pumphouse Road, de lunes a viernes en el horario publicado.",
+     "Llame a Reciclaje y Saneamiento para el horario de su calle."
+    ],
+    "contact": [
+     {
+      "label": "Reciclaje y Saneamiento",
+      "value": "973-263-7273",
+      "href": "tel:+19732637273"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=0M3eC9WwWso%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "pothole-report",
+   "keywords": {
+    "en": [
+     "pothole",
+     "potholes",
+     "report a pothole",
+     "road damage"
+    ],
+    "es": [
+     "bache",
+     "baches",
+     "reportar un bache",
+     "dano en la calle"
+    ]
+   },
+   "en": {
+    "lead": "Report potholes on Parsippany township roads to the Streets & Roads Division at 973-263-7093.",
+    "details": [
+     "The township maintains over 186 miles of roadways.",
+     "For county roads (including Parsippany Boulevard, Parsippany Road, Littleton Road, Cherry Hill Road, Intervale Road, South Beverwyck Road and West Hanover Avenue), call Morris County at 973-285-6763.",
+     "For state roads (Routes 10, 46, 53, 80, 280 and 287), call NJDOT at 609-588-6211."
+    ],
+    "contact": [
+     {
+      "label": "Streets & Roads Division",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Morris County roads",
+      "value": "973-285-6763",
+      "href": "tel:+19732856763"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Reporte los baches en calles del municipio de Parsippany a la División de Calles y Carreteras al 973-263-7093.",
+    "details": [
+     "El municipio mantiene más de 186 millas de calles.",
+     "Para carreteras del condado (incluidas Parsippany Boulevard, Parsippany Road, Littleton Road, Cherry Hill Road, Intervale Road, South Beverwyck Road y West Hanover Avenue), llame al Condado de Morris al 973-285-6763.",
+     "Para carreteras estatales (Rutas 10, 46, 53, 80, 280 y 287), llame a NJDOT al 609-588-6211."
+    ],
+    "contact": [
+     {
+      "label": "División de Calles y Carreteras",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Carreteras del Condado de Morris",
+      "value": "973-285-6763",
+      "href": "tel:+19732856763"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=5SyGJt3fgWE=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "snow-plowing",
+   "keywords": {
+    "en": [
+     "snow plowing",
+     "snow removal",
+     "snow plow",
+     "street not plowed",
+     "not plowed",
+     "was not plowed",
+     "plowed",
+     "snow"
+    ],
+    "es": [
+     "quitanieves",
+     "remocion de nieve",
+     "nieve",
+     "calle sin limpiar"
+    ]
+   },
+   "en": {
+    "lead": "Snow plowing on Parsippany township roads is done by the Streets & Roads Division.",
+    "details": [
+     "The division clears and maintains over 186 miles of township roadways.",
+     "County and state roads are plowed by Morris County and NJDOT, not the township.",
+     "If your township street has not been plowed after a storm has ended, call Streets & Roads."
+    ],
+    "contact": [
+     {
+      "label": "Streets & Roads Division",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La limpieza de nieve en las calles del municipio de Parsippany la realiza la División de Calles y Carreteras.",
+    "details": [
+     "La división limpia y mantiene más de 186 millas de calles del municipio.",
+     "Las carreteras del condado y del estado las limpia el Condado de Morris y NJDOT, no el municipio.",
+     "Si su calle del municipio no ha sido limpiada después de que terminó la tormenta, llame a Calles y Carreteras."
+    ],
+    "contact": [
+     {
+      "label": "División de Calles y Carreteras",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=5SyGJt3fgWE=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "streetlight",
+   "keywords": {
+    "en": [
+     "streetlight",
+     "street light",
+     "street light out",
+     "light out",
+     "dark street"
+    ],
+    "es": [
+     "farola",
+     "luz de la calle",
+     "farola apagada",
+     "alumbrado"
+    ]
+   },
+   "en": {
+    "lead": "To report a streetlight out in Parsippany, call the Mayor's Action Center at 973-263-4262 and give the street address and, if you can, the pole number.",
+    "details": [
+     "Most Parsippany streetlights are utility-owned (JCP&L), and the township contacts the utility for repair. JCP&L is not an approved source for this chat, so this answer routes you through the township.",
+     "For a downed wire or a light that is sparking, treat it as an emergency and call 911."
+    ],
+    "contact": [
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Streets & Roads Division",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para reportar una farola apagada en Parsippany, llame al Centro de Acción del Alcalde al 973-263-4262 y dé la dirección y, si puede, el número del poste.",
+    "details": [
+     "La mayoría de las farolas de Parsippany son de la compañía eléctrica (JCP&L), y el municipio contacta a la compañía para la reparación. JCP&L no es una fuente aprobada para este chat, por lo que esta respuesta lo dirige a través del municipio.",
+     "Si hay un cable caído o una luz que echa chispas, trátelo como una emergencia y llame al 911."
+    ],
+    "contact": [
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "División de Calles y Carreteras",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "building-permits",
+   "keywords": {
+    "en": [
+     "building permit",
+     "construction permit",
+     "building permits",
+     "permit for"
+    ],
+    "es": [
+     "permiso de construccion",
+     "permiso de obra",
+     "permisos"
+    ]
+   },
+   "en": {
+    "lead": "Building and construction permits in Parsippany are handled by the Building & Construction Department in Town Hall.",
+    "details": [
+     "Call before you start work to confirm whether your project needs a permit and which forms apply.",
+     "Construction forms are also on the township Forms page and the NJ DCA construction permit forms page linked from parsippany.net."
+    ],
+    "contact": [
+     {
+      "label": "Building & Construction",
+      "value": "973-263-4366",
+      "href": "tel:+19732634366"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los permisos de construcción en Parsippany los gestiona el Departamento de Edificación y Construcción en el Ayuntamiento.",
+    "details": [
+     "Llame antes de comenzar la obra para confirmar si su proyecto necesita un permiso y qué formularios aplican.",
+     "Los formularios de construcción también están en la página de Formularios del municipio."
+    ],
+    "contact": [
+     {
+      "label": "Edificación y Construcción",
+      "value": "973-263-4366",
+      "href": "tel:+19732634366"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "seniors",
+   "keywords": {
+    "en": [
+     "senior",
+     "seniors",
+     "senior center",
+     "senior programs",
+     "older adults"
+    ],
+    "es": [
+     "personas mayores",
+     "centro de personas mayores",
+     "programas para mayores",
+     "adultos mayores"
+    ]
+   },
+   "en": {
+    "lead": "The Parsippany Senior Community Center at 1130 Knoll Road in Lake Hiawatha is open to all residents age 50 and older, with no membership or entrance fee.",
+    "details": [
+     "Open Monday through Friday, 9:00 AM to 5:00 PM.",
+     "Activities include line dancing, chair yoga, Tai Chi, senior fitness, social clubs, speakers and entertainment, plus a free lending library and exercise room.",
+     "Call to register for programs or to arrange a tour."
+    ],
+    "contact": [
+     {
+      "label": "Senior Community Center",
+      "value": "973-263-7351",
+      "href": "tel:+19732637351"
+     },
+     {
+      "label": "Senior Community Center",
+      "value": "1130 Knoll Road, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El Centro Comunitario para Personas Mayores de Parsippany, en 1130 Knoll Road en Lake Hiawatha, está abierto a todos los residentes de 50 años o más, sin cuota de membresía ni entrada.",
+    "details": [
+     "Abierto de lunes a viernes, de 9:00 AM a 5:00 PM.",
+     "Las actividades incluyen baile en línea, yoga en silla, Tai Chi, ejercicio para mayores, clubes sociales, charlas y entretenimiento, además de una biblioteca gratuita y sala de ejercicios.",
+     "Llame para inscribirse en programas o para programar una visita."
+    ],
+    "contact": [
+     {
+      "label": "Centro para Personas Mayores",
+      "value": "973-263-7351",
+      "href": "tel:+19732637351"
+     },
+     {
+      "label": "Centro para Personas Mayores",
+      "value": "1130 Knoll Road, Parsippany, NJ 07054"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "recreation-signup",
+   "keywords": {
+    "en": [
+     "recreation",
+     "rec program",
+     "sign up for sports",
+     "youth sports",
+     "recreation signup",
+     "register for recreation"
+    ],
+    "es": [
+     "recreacion",
+     "programa recreativo",
+     "inscribirse en deportes",
+     "deportes juveniles"
+    ]
+   },
+   "en": {
+    "lead": "Parsippany Recreation programs are registered online at pthreconline.com.",
+    "details": [
+     "The Recreation Department is at 33 Baldwin Road and handles youth and adult sports, camps, and field, court and picnic area reservations.",
+     "Office hours in season are Monday through Friday, 8:00 AM to 5:00 PM."
+    ],
+    "contact": [
+     {
+      "label": "Recreation Department",
+      "value": "973-263-7257",
+      "href": "tel:+19732637257"
+     },
+     {
+      "label": "Recreation registration",
+      "value": "https://www.pthreconline.com"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los programas de Recreación de Parsippany se inscriben en línea en pthreconline.com.",
+    "details": [
+     "El Departamento de Recreación está en 33 Baldwin Road y gestiona deportes juveniles y para adultos, campamentos y reservas de campos, canchas y áreas de picnic."
+    ],
+    "contact": [
+     {
+      "label": "Departamento de Recreación",
+      "value": "973-263-7257",
+      "href": "tel:+19732637257"
+     },
+     {
+      "label": "Inscripción de Recreación",
+      "value": "https://www.pthreconline.com"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "parks-recreation",
+   "keywords": {
+    "en": [
+     "park",
+     "parks",
+     "pool",
+     "playground"
+    ],
+    "es": [
+     "parque",
+     "parques",
+     "piscina",
+     "area de juegos"
+    ]
+   },
+   "en": {
+    "lead": "Parsippany parks are maintained by the Parks & Forestry Division.",
+    "details": [
+     "For park conditions, trees or a park problem, call Parks & Forestry.",
+     "For programs, fields and reservations, contact the Recreation Department instead."
+    ],
+    "contact": [
+     {
+      "label": "Parks & Forestry",
+      "value": "973-263-7254",
+      "href": "tel:+19732637254"
+     },
+     {
+      "label": "Recreation Department",
+      "value": "973-263-7257",
+      "href": "tel:+19732637257"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los parques de Parsippany los mantiene la División de Parques y Silvicultura.",
+    "details": [
+     "Para el estado de un parque, árboles o un problema en un parque, llame a Parques y Silvicultura.",
+     "Para programas, campos y reservas, contacte en su lugar al Departamento de Recreación."
+    ],
+    "contact": [
+     {
+      "label": "Parques y Silvicultura",
+      "value": "973-263-7254",
+      "href": "tel:+19732637254"
+     },
+     {
+      "label": "Departamento de Recreación",
+      "value": "973-263-7257",
+      "href": "tel:+19732637257"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "library",
+   "keywords": {
+    "en": [
+     "library",
+     "library hours",
+     "parsippany library"
+    ],
+    "es": [
+     "biblioteca",
+     "horario de la biblioteca",
+     "biblioteca de parsippany"
+    ]
+   },
+   "en": {
+    "lead": "The Parsippany Library's main branch is at 449 Halsey Road, with branches in Lake Hiawatha and Mount Tabor.",
+    "details": [
+     "Library hours, events and registration are at parsippanylibrary.org. The library is a separate official site, approved here for library questions only.",
+     "The township directory lists the Public Library System at 973-887-5150."
+    ],
+    "contact": [
+     {
+      "label": "Parsippany Library, Main",
+      "value": "973-887-5150",
+      "href": "tel:+19738875150"
+     },
+     {
+      "label": "Parsippany Library",
+      "value": "https://parsippanylibrary.org"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La biblioteca principal de Parsippany está en 449 Halsey Road, con sucursales en Lake Hiawatha y Mount Tabor.",
+    "details": [
+     "Los horarios, eventos e inscripciones de la biblioteca están en parsippanylibrary.org. La biblioteca es un sitio oficial separado, aprobado aquí solo para preguntas sobre la biblioteca.",
+     "El directorio del municipio lista el Sistema de Bibliotecas Públicas en 973-887-5150."
+    ],
+    "contact": [
+     {
+      "label": "Biblioteca de Parsippany, Principal",
+      "value": "973-887-5150",
+      "href": "tel:+19738875150"
+     },
+     {
+      "label": "Biblioteca de Parsippany",
+      "value": "https://parsippanylibrary.org"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "noise-complaint",
+   "keywords": {
+    "en": [
+     "noise complaint",
+     "loud noise",
+     "noise ordinance",
+     "loud party"
+    ],
+    "es": [
+     "queja por ruido",
+     "ruido",
+     "ruido fuerte",
+     "fiesta ruidosa"
+    ]
+   },
+   "en": {
+    "lead": "For an ongoing noise problem in Parsippany, call the Police non-emergency line at 973-263-4300.",
+    "details": [
+     "An officer can respond while the noise is happening, which is when a complaint can be checked.",
+     "For a recurring problem or a question about the noise ordinance, the Mayor's Action Center can route it during Town Hall hours."
+    ],
+    "contact": [
+     {
+      "label": "Police (non-emergency)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para un problema de ruido en curso en Parsippany, llame a la línea de no emergencias de la Policía al 973-263-4300.",
+    "details": [
+     "Un oficial puede responder mientras ocurre el ruido, que es cuando se puede verificar una queja.",
+     "Para un problema recurrente o una pregunta sobre la ordenanza de ruido, el Centro de Acción del Alcalde puede dirigirlo en horario del Ayuntamiento."
+    ],
+    "contact": [
+     {
+      "label": "Policía (no emergencias)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "animal-control",
+   "keywords": {
+    "en": [
+     "animal control",
+     "stray dog",
+     "rabies clinic",
+     "lost dog"
+    ],
+    "es": [
+     "control de animales",
+     "perro callejero",
+     "clinica de rabia",
+     "perro perdido"
+    ]
+   },
+   "en": {
+    "lead": "Animal Control and the Parsippany animal shelter can be reached at 973-263-7083.",
+    "details": [
+     "The shelter is at 1069 Parsippany Boulevard.",
+     "The township runs a free annual rabies clinic for dogs and cats; dates are posted on parsippany.net."
+    ],
+    "contact": [
+     {
+      "label": "Animal Control & Shelter",
+      "value": "973-263-7083",
+      "href": "tel:+19732637083"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Control de Animales y el refugio de animales de Parsippany se contactan al 973-263-7083.",
+    "details": [
+     "El refugio está en 1069 Parsippany Boulevard.",
+     "El municipio ofrece una clínica anual gratuita contra la rabia para perros y gatos; las fechas se publican en parsippany.net."
+    ],
+    "contact": [
+     {
+      "label": "Control de Animales y Refugio",
+      "value": "973-263-7083",
+      "href": "tel:+19732637083"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "clerk-records",
+   "keywords": {
+    "en": [
+     "clerk",
+     "registrar",
+     "township clerk"
+    ],
+    "es": [
+     "secretario",
+     "registro civil",
+     "secretario municipal"
+    ]
+   },
+   "en": {
+    "lead": "The Township Clerk / Registrar's Office in Parsippany handles council records, licenses, OPRA requests and vital records.",
+    "details": [
+     "Services include council support and agendas/minutes, dog and other licenses, OPRA public records, elections and voter forms, and marriage licenses and certified copies of vital records.",
+     "The Clerk is Khaled Madin (email on the township directory: kmadin@parsippany.net)."
+    ],
+    "contact": [
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La Oficina del Secretario Municipal / Registro Civil en Parsippany gestiona los registros del concejo, licencias, solicitudes OPRA y registros vitales.",
+    "details": [
+     "Los servicios incluyen apoyo al concejo y agendas/actas, licencias para perros y otras, registros públicos OPRA, elecciones y formularios de votantes, y licencias de matrimonio y copias certificadas de registros vitales."
+    ],
+    "contact": [
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Department/Index?menuId=lJ24D1CroaA=",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  }
+ ]
+}

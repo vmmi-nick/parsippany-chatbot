@@ -1,0 +1,226 @@
+{
+ "board": "Township Council",
+ "clerkPhone": "973-263-4351",
+ "defaultLocation": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+ "lastChecked": "2026-11-21",
+ "source": "https://www.parsippany.net/CalendarEvent/CalanderAndEvents",
+ "sourceLabel": "Township of Parsippany-Troy Hills Events & Meetings calendar",
+ "meetings": [
+  {
+   "date": "2026-01-06",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-01-20",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-02-03",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-02-17",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-03-03",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-03-17",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-04-07",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-04-21",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-05-05",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-05-19",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-06-09",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-06-23",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-07-07",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-07-21",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-08-04",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-08-18",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-09-01",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-09-15",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-10-06",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-10-20",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-11-10",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": true
+  },
+  {
+   "date": "2026-11-24",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": true
+  },
+  {
+   "date": "2026-12-01",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Agenda",
+   "agenda": false
+  },
+  {
+   "date": "2026-12-15",
+   "hour": 19,
+   "minute": 0,
+   "timeLabel": "7:00 PM",
+   "location": "Municipal Building, 1001 Parsippany Boulevard, Parsippany, NJ 07054",
+   "type": "Regular",
+   "agenda": false
+  }
+ ]
+}
