@@ -36,12 +36,14 @@ function normalize(s) {
 }
 
 function detectLang(question, requested) {
-  if (requested === 'es' || requested === 'en') return requested;
+  if (requested === 'es') return 'es';
   const q = String(question || '');
-  if (/[¿¡áéíóúñ]/i.test(q)) return 'es';
   const n = ' ' + normalize(q) + ' ';
   const esHints = [' quien ', ' cuando ', ' donde ', ' como ', ' acta ', ' alcalde ', ' reunion ', ' concejo ', ' basura ', ' biblioteca ', ' multa ', ' permiso ', ' impuesto ', ' discapacitado', ' estacionamiento ', ' piscina ', ' parque ', ' farola ', ' luz ', ' hay ', ' calle ', ' carro ', ' vehiculo ', ' velocidad ', ' propiedad ', ' hierba ', ' pasto ', ' inundacion ', ' sotano ', ' abandonado ', ' vecinos ', ' necesito ', ' reportar ', ' quiero ', ' autos ', ' exceso ', ' agua '];
-  return esHints.some((h) => n.includes(h)) ? 'es' : 'en';
+  const hintCount = esHints.filter((h) => n.includes(h)).length;
+  if (/[¿¡áéíóúñ]/i.test(q) || hintCount >= 2) return 'es';
+  if (requested === 'en') return 'en';
+  return hintCount >= 1 ? 'es' : 'en';
 }
 
 const EMERGENCY = [
