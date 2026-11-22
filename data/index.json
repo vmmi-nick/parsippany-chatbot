@@ -808,7 +808,8 @@
     "lead": "If your garbage or recycling was missed in Parsippany, call Recycling & Sanitation at 973-263-7273.",
     "details": [
      "Leave the container at the curb until you speak with the department, unless they tell you otherwise.",
-     "Make sure the container was out before 6:00 AM and was not over 60 pounds or larger than 35 gallons, which are common reasons for a missed pickup."
+     "Make sure the container was out before 6:00 AM and was not over 60 pounds or larger than 35 gallons, which are common reasons for a missed pickup.",
+     "Have your exact street address ready when you call."
     ],
     "contact": [
      {
@@ -822,7 +823,8 @@
     "lead": "Si no recogieron su basura o reciclaje en Parsippany, llame a Reciclaje y Saneamiento al 973-263-7273.",
     "details": [
      "Deje el contenedor en la acera hasta hablar con el departamento, a menos que le indiquen lo contrario.",
-     "Asegúrese de que el contenedor estaba fuera antes de las 6:00 AM y no superaba las 60 libras ni los 35 galones, causas comunes de una recogida perdida."
+     "Asegúrese de que el contenedor estaba fuera antes de las 6:00 AM y no superaba las 60 libras ni los 35 galones, causas comunes de una recogida perdida.",
+     "Tenga lista su dirección exacta cuando llame."
     ],
     "contact": [
      {
@@ -953,7 +955,8 @@
     "details": [
      "The township maintains over 186 miles of roadways.",
      "For county roads (including Parsippany Boulevard, Parsippany Road, Littleton Road, Cherry Hill Road, Intervale Road, South Beverwyck Road and West Hanover Avenue), call Morris County at 973-285-6763.",
-     "For state roads (Routes 10, 46, 53, 80, 280 and 287), call NJDOT at 609-588-6211."
+     "For state roads (Routes 10, 46, 53, 80, 280 and 287), call NJDOT at 609-588-6211.",
+     "Have the exact address or the nearest cross street ready when you call, so the crew can find it."
     ],
     "contact": [
      {
@@ -973,7 +976,8 @@
     "details": [
      "El municipio mantiene más de 186 millas de calles.",
      "Para carreteras del condado (incluidas Parsippany Boulevard, Parsippany Road, Littleton Road, Cherry Hill Road, Intervale Road, South Beverwyck Road y West Hanover Avenue), llame al Condado de Morris al 973-285-6763.",
-     "Para carreteras estatales (Rutas 10, 46, 53, 80, 280 y 287), llame a NJDOT al 609-588-6211."
+     "Para carreteras estatales (Rutas 10, 46, 53, 80, 280 y 287), llame a NJDOT al 609-588-6211.",
+     "Tenga lista la dirección exacta o el cruce de calles más cercano cuando llame, para que la cuadrilla pueda encontrarlo."
     ],
     "contact": [
      {
@@ -1075,6 +1079,7 @@
     "lead": "To report a streetlight out in Parsippany, call the Mayor's Action Center at 973-263-4262 and give the street address and, if you can, the pole number.",
     "details": [
      "Most Parsippany streetlights are utility-owned (JCP&L), and the township contacts the utility for repair. JCP&L is not an approved source for this chat, so this answer routes you through the township.",
+     "The pole number is printed on a tag on the pole itself. Have it ready if you can, along with the nearest address or cross street, because it tells the crew exactly which light is out.",
      "For a downed wire or a light that is sparking, treat it as an emergency and call 911."
     ],
     "contact": [
@@ -1094,6 +1099,7 @@
     "lead": "Para reportar una farola apagada en Parsippany, llame al Centro de Acción del Alcalde al 973-263-4262 y dé la dirección y, si puede, el número del poste.",
     "details": [
      "La mayoría de las farolas de Parsippany son de la compañía eléctrica (JCP&L), y el municipio contacta a la compañía para la reparación. JCP&L no es una fuente aprobada para este chat, por lo que esta respuesta lo dirige a través del municipio.",
+     "El número del poste está impreso en una placa en el propio poste. Téngalo listo si puede, junto con la dirección o cruce más cercano, porque le dice a la cuadrilla exactamente qué farola está apagada.",
      "Si hay un cable caído o una luz que echa chispas, trátelo como una emergencia y llame al 911."
     ],
     "contact": [
@@ -1742,6 +1748,277 @@
     ]
    },
    "source": "https://www.parsippany.net/CalendarEvent/CalanderAndEvents",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "flooding",
+   "keywords": {
+    "en": [
+     "flooding",
+     "flood",
+     "flooded",
+     "water in my basement",
+     "water in basement",
+     "basement flooding",
+     "sewer backup",
+     "sewage backup",
+     "street flooding",
+     "storm drain",
+     "flooded street"
+    ],
+    "es": [
+     "inundacion",
+     "inundaciones",
+     "agua en mi sotano",
+     "agua en el sotano",
+     "calle inundada",
+     "respaldo de alcantarillado",
+     "alcantarillado tapado"
+    ]
+   },
+   "en": {
+    "lead": "For a sewer backup, call the township Sanitary Sewer Utility at 973-428-7593; for street flooding or a storm drain problem, call Streets & Roads at 973-263-7093.",
+    "details": [
+     "Have ready: your address, where the water is (basement, street, or both), and whether it is just your property or the whole street. That tells the crew whether it is a house connection or a main/street problem.",
+     "If you are not sure which it is, call the Mayor's Action Center and they will route it.",
+     "If water is near electrical outlets or appliances, stay clear of it and call 911 if anyone is in danger."
+    ],
+    "contact": [
+     {
+      "label": "Sanitary Sewer Utility",
+      "value": "973-428-7593",
+      "href": "tel:+19734287593"
+     },
+     {
+      "label": "Streets & Roads Division",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para un respaldo de alcantarillado, llame al Servicio de Alcantarillado Sanitario del municipio al 973-428-7593; para inundación en la calle o un problema de drenaje pluvial, llame a Calles y Carreteras al 973-263-7093.",
+    "details": [
+     "Tenga listo: su dirección, dónde está el agua (sótano, calle o ambos) y si es solo su propiedad o toda la calle. Eso le dice a la cuadrilla si es una conexión de la casa o un problema de la calle o la tubería principal.",
+     "Si no está seguro, llame al Centro de Acción del Alcalde y ellos lo dirigirán.",
+     "Si el agua está cerca de enchufes o electrodomésticos, manténgase alejado y llame al 911 si alguien está en peligro."
+    ],
+    "contact": [
+     {
+      "label": "Alcantarillado Sanitario",
+      "value": "973-428-7593",
+      "href": "tel:+19734287593"
+     },
+     {
+      "label": "División de Calles y Carreteras",
+      "value": "973-263-7093",
+      "href": "tel:+19732637093"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "illegal-parking",
+   "keywords": {
+    "en": [
+     "illegal parking",
+     "illegally parked",
+     "abandoned vehicle",
+     "abandoned car",
+     "blocked driveway",
+     "car blocking",
+     "vehicle blocking",
+     "parked illegally"
+    ],
+    "es": [
+     "estacionamiento ilegal",
+     "vehiculo abandonado",
+     "carro abandonado",
+     "auto abandonado",
+     "entrada bloqueada"
+    ]
+   },
+   "en": {
+    "lead": "Report illegal parking or an abandoned vehicle to the Parsippany Police on the non-emergency line, 973-263-4300.",
+    "details": [
+     "Have ready: the exact location, a description of the vehicle, the license plate if you know it, and how long it has been there.",
+     "For a vehicle blocking you in right now, the police non-emergency line is still the fastest route. If anyone is in danger, call 911."
+    ],
+    "contact": [
+     {
+      "label": "Police (non-emergency)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Reporte el estacionamiento ilegal o un vehículo abandonado a la Policía de Parsippany en la línea de no emergencias, 973-263-4300.",
+    "details": [
+     "Tenga listo: la ubicación exacta, una descripción del vehículo, la placa si la conoce y cuánto tiempo lleva allí.",
+     "Si un vehículo lo está bloqueando ahora mismo, la línea de no emergencias de la policía sigue siendo la vía más rápida. Si alguien está en peligro, llame al 911."
+    ],
+    "contact": [
+     {
+      "label": "Policía (no emergencias)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "property-maintenance",
+   "keywords": {
+    "en": [
+     "property maintenance",
+     "overgrown",
+     "tall grass",
+     "weeds",
+     "vacant property",
+     "neglected property",
+     "unkept property",
+     "overgrown lawn",
+     "overgrown weeds",
+     "unkempt property"
+    ],
+    "es": [
+     "mantenimiento de propiedad",
+     "hierba alta",
+     "pasto alto",
+     "maleza",
+     "propiedad abandonada",
+     "propiedad descuidada",
+     "cesped alto"
+    ]
+   },
+   "en": {
+    "lead": "Property maintenance complaints in Parsippany, like overgrown weeds, tall grass or a vacant, neglected property, go to the Health & Human Services Department at 973-263-7163.",
+    "details": [
+     "Have the exact address of the property ready when you call.",
+     "If you are not sure your complaint fits there, call the Mayor's Action Center and they will route it to the right office."
+    ],
+    "contact": [
+     {
+      "label": "Health & Human Services",
+      "value": "973-263-7163",
+      "href": "tel:+19732637163"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las quejas de mantenimiento de propiedad en Parsippany, como maleza crecida, pasto alto o una propiedad vacía y descuidada, van al Departamento de Salud y Servicios Humanos al 973-263-7163.",
+    "details": [
+     "Tenga lista la dirección exacta de la propiedad cuando llame.",
+     "Si no está seguro de que su queja corresponda allí, llame al Centro de Acción del Alcalde y ellos lo dirigirán a la oficina correcta."
+    ],
+    "contact": [
+     {
+      "label": "Salud y Servicios Humanos",
+      "value": "973-263-7163",
+      "href": "tel:+19732637163"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "speeding",
+   "keywords": {
+    "en": [
+     "speeding",
+     "speeders",
+     "cars speeding",
+     "traffic safety",
+     "traffic calming",
+     "speed bumps",
+     "people drive too fast",
+     "driving too fast"
+    ],
+    "es": [
+     "exceso de velocidad",
+     "autos a alta velocidad",
+     "seguridad vial",
+     "manejan muy rapido",
+     "conductores a alta velocidad"
+    ]
+   },
+   "en": {
+    "lead": "Report speeding on a Parsippany street to the Police non-emergency line at 973-263-4300.",
+    "details": [
+     "Have ready: the street, the stretch or nearest cross streets, and the times of day it happens most. A pattern is more useful to the police than a single car.",
+     "Requests about traffic calming on a street go to Town Hall through the Mayor's Action Center. This chat cannot promise any specific measure, like a speed bump or a stop sign; those decisions are the township's, after review.",
+     "If a driver is putting someone in immediate danger, call 911."
+    ],
+    "contact": [
+     {
+      "label": "Police (non-emergency)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Reporte el exceso de velocidad en una calle de Parsippany a la línea de no emergencias de la Policía al 973-263-4300.",
+    "details": [
+     "Tenga listo: la calle, el tramo o los cruces más cercanos, y las horas del día en que ocurre más. Un patrón es más útil para la policía que un solo auto.",
+     "Las solicitudes sobre medidas para calmar el tráfico en una calle van al Ayuntamiento a través del Centro de Acción del Alcalde. Este chat no puede prometer ninguna medida específica, como un reductor de velocidad o una señal de alto; esas decisiones son del municipio, después de una revisión.",
+     "Si un conductor está poniendo a alguien en peligro inmediato, llame al 911."
+    ],
+    "contact": [
+     {
+      "label": "Policía (no emergencias)",
+      "value": "973-263-4300",
+      "href": "tel:+19732634300"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
    "sourceLabel": "Township of Parsippany-Troy Hills official site"
   }
  ]
