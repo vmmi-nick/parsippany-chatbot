@@ -1529,6 +1529,220 @@
    },
    "source": "https://www.parsippany.net/Department/Index?menuId=lJ24D1CroaA=",
    "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "directory",
+   "keywords": {
+    "en": [
+     "directory",
+     "phone directory",
+     "department directory",
+     "phone number",
+     "phone numbers",
+     "what is the number",
+     "whats the number",
+     "number for",
+     "contact number",
+     "department phone numbers"
+    ],
+    "es": [
+     "directorio",
+     "directorio telefonico",
+     "numero de telefono",
+     "cual es el numero",
+     "numero de contacto"
+    ]
+   },
+   "en": {
+    "lead": "The township's main number is 973-263-4350, and the Mayor's Action Center at 973-263-4262 can connect you to any department.",
+    "details": [
+     "Department numbers: Clerk/Registrar 973-263-4351; Building & Construction 973-263-4366; Tax Department 973-263-4398; Municipal Court 973-263-4290; Police (non-emergency) 973-263-4300.",
+     "Recycling & Sanitation 973-263-7273; Streets & Roads 973-263-7093; Water Utility 973-263-7099; Sewer Utility 973-428-7593.",
+     "Recreation 973-263-7257; Parks & Forestry 973-263-7254; Senior Center 973-263-7351; Animal Control 973-263-7083; Public Library 973-887-5150.",
+     "The full Department Directory is on the township Contact page."
+    ],
+    "contact": [
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Department Directory",
+      "value": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D"
+     }
+    ]
+   },
+   "es": {
+    "lead": "El número principal del municipio es 973-263-4350, y el Centro de Acción del Alcalde, al 973-263-4262, puede comunicarlo con cualquier departamento.",
+    "details": [
+     "Números de departamentos: Secretario/Registro Civil 973-263-4351; Edificación y Construcción 973-263-4366; Departamento de Impuestos 973-263-4398; Tribunal Municipal 973-263-4290; Policía (no emergencias) 973-263-4300.",
+     "Reciclaje y Saneamiento 973-263-7273; Calles y Carreteras 973-263-7093; Servicio de Agua 973-263-7099; Alcantarillado 973-428-7593.",
+     "Recreación 973-263-7257; Parques y Silvicultura 973-263-7254; Centro para Personas Mayores 973-263-7351; Control de Animales 973-263-7083; Biblioteca Pública 973-887-5150.",
+     "El Directorio de Departamentos completo está en la página de Contacto del municipio."
+    ],
+    "contact": [
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Directorio de Departamentos",
+      "value": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "follow-up",
+   "keywords": {
+    "en": [
+     "follow up",
+     "follow-up",
+     "check on my request",
+     "status of my request",
+     "track my request",
+     "existing request",
+     "already reported",
+     "check the status of",
+     "my case"
+    ],
+    "es": [
+     "seguimiento",
+     "estado de mi solicitud",
+     "ya reporte",
+     "revisar mi solicitud",
+     "mi caso"
+    ]
+   },
+   "en": {
+    "lead": "To check on an existing request or case, call the department that took it, and have the address involved, the date you reported it, and any reference number you were given ready.",
+    "details": [
+     "The department that took the report is the one that can tell you where it stands.",
+     "If you are not sure which department took it, call the Mayor's Action Center and they will route you.",
+     "This chat cannot look up individual cases and does not collect personal information."
+    ],
+    "contact": [
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Para consultar una solicitud o caso existente, llame al departamento que lo recibió y tenga listos la dirección involucrada, la fecha en que lo reportó y cualquier número de referencia que le hayan dado.",
+    "details": [
+     "El departamento que recibió el reporte es el que puede decirle en qué estado está.",
+     "Si no está seguro de qué departamento lo recibió, llame al Centro de Acción del Alcalde y ellos lo dirigirán.",
+     "Este chat no puede buscar casos individuales y no recopila información personal."
+    ],
+    "contact": [
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "events",
+   "keywords": {
+    "en": [
+     "events",
+     "township events",
+     "upcoming events",
+     "community events",
+     "event calendar",
+     "what events",
+     "things to do",
+     "what is happening in town",
+     "town calendar"
+    ],
+    "es": [
+     "eventos",
+     "eventos del municipio",
+     "proximos eventos",
+     "eventos comunitarios",
+     "calendario de eventos",
+     "que eventos hay",
+     "actividades en el pueblo"
+    ]
+   },
+   "en": {
+    "lead": "Township events in Parsippany are listed on the official Events & Meetings calendar and the News page on parsippany.net.",
+    "details": [
+     "The calendar covers public meetings, township events and community happenings, and is the place to check current dates and times, since they change.",
+     "Township news and announcements are posted on the News page.",
+     "For a question about a specific event, the Mayor's Action Center can help during Town Hall hours."
+    ],
+    "contact": [
+     {
+      "label": "Events & Meetings calendar",
+      "value": "https://www.parsippany.net/CalendarEvent/ViewFullCalendar?menuId=vvxlfghHgEk%3D"
+     },
+     {
+      "label": "Township News",
+      "value": "https://www.parsippany.net/News"
+     },
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Los eventos del municipio de Parsippany se publican en el calendario oficial de Eventos y Reuniones y en la página de Noticias en parsippany.net.",
+    "details": [
+     "El calendario cubre reuniones públicas, eventos del municipio y actividades comunitarias, y es el lugar para verificar fechas y horarios actuales, ya que cambian.",
+     "Las noticias y anuncios del municipio se publican en la página de Noticias.",
+     "Para una pregunta sobre un evento específico, el Centro de Acción del Alcalde puede ayudar en horario del Ayuntamiento."
+    ],
+    "contact": [
+     {
+      "label": "Calendario de Eventos y Reuniones",
+      "value": "https://www.parsippany.net/CalendarEvent/ViewFullCalendar?menuId=vvxlfghHgEk%3D"
+     },
+     {
+      "label": "Noticias del municipio",
+      "value": "https://www.parsippany.net/News"
+     },
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/CalendarEvent/CalanderAndEvents",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
   }
  ]
 }
