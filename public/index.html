@@ -154,6 +154,26 @@
     .hero-in{padding:26px 16px 24px}
     button.send{padding:13px 18px}
   }
+
+  /* ---------- report wizard ---------- */
+  .reportpanel{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin:26px 0}
+  .reportpanel h2{margin:0 0 6px;font-size:22px;color:var(--burgundy-ink)}
+  .reportpanel .section-sub{margin:0 0 14px}
+  .rp-start,.rp-nav button,.rp-copy{background:var(--burgundy);color:#fff;border:0;border-radius:10px;padding:11px 18px;font-size:15px;font-weight:600;cursor:pointer}
+  .rp-start:hover,.rp-nav button:hover,.rp-copy:hover{background:var(--burgundy-dark)}
+  .rp-nav{display:flex;gap:10px;margin-top:16px}
+  .rp-nav .rp-back{background:var(--panel-soft);color:var(--text);border:1px solid var(--border)}
+  .rp-types{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+  .rp-type{border:1px solid var(--border);background:var(--panel-soft);color:var(--text);border-radius:999px;padding:8px 14px;font-size:14px;cursor:pointer}
+  .rp-type.sel{background:var(--gold);border-color:var(--gold-deep);color:#231a05;font-weight:700}
+  .rp-field{margin:12px 0}
+  .rp-field label{display:block;font-weight:600;margin-bottom:6px}
+  .rp-field input[type=text],.rp-field textarea{width:100%;padding:11px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:var(--panel);color:var(--text)}
+  .rp-step-label{font-weight:700;color:var(--burgundy-ink);margin:14px 0 2px}
+  .rp-summary{white-space:pre-wrap;background:var(--panel-soft);border:1px solid var(--border);border-radius:10px;padding:14px;font-size:14px}
+  .rp-gov{display:inline-block;margin:14px 0 6px;background:var(--gold);color:#231a05;font-weight:800;font-size:17px;padding:14px 22px;border-radius:12px;text-decoration:none;border:2px solid var(--gold-deep)}
+  .rp-warn{font-weight:700}
+  .rp-err{color:#b3261e;font-weight:600;min-height:20px}
 </style>
 </head>
 <body>
@@ -183,6 +203,48 @@
   <h2 class="section-title" id="cards-title">Browse township topics</h2>
   <p class="section-sub" id="cards-sub">Tap a topic and the question is asked for you.</p>
   <div class="cards" id="cards"></div>
+
+
+  <section class="reportpanel" id="report-panel">
+    <h2 id="rp-title">Report an issue</h2>
+    <p class="section-sub" id="rp-sub">Prepare your report here, then file it in the township's GovPilot Report a Concern form, where Parsippany receives and tracks reports.</p>
+    <button class="rp-start" id="rp-start" type="button">Start a report</button>
+    <div id="rp-wiz" hidden>
+      <div id="rp-step1">
+        <div class="rp-step-label" id="rp-s1-label">1. What type of concern is it?</div>
+        <div class="rp-types" id="rp-types"></div>
+      </div>
+      <div id="rp-step2" hidden>
+        <div class="rp-step-label" id="rp-s2-label">2. Where is it?</div>
+        <div class="rp-field"><label for="rp-addr" id="rp-addr-label">Street address or nearest intersection</label><input type="text" id="rp-addr" autocomplete="off"></div>
+        <div class="rp-field"><label for="rp-locdesc" id="rp-locdesc-label">Describe the location (optional)</label><input type="text" id="rp-locdesc" autocomplete="off"></div>
+      </div>
+      <div id="rp-step3" hidden>
+        <div class="rp-step-label" id="rp-s3-label">3. Describe the concern</div>
+        <div class="rp-field"><label for="rp-desc" id="rp-desc-label">What is happening, since when, and anything the crew should know</label><textarea id="rp-desc" rows="4"></textarea></div>
+      </div>
+      <div id="rp-step4" hidden>
+        <div class="rp-step-label" id="rp-s4-label">4. Your contact information (optional)</div>
+        <div class="rp-field"><label for="rp-name" id="rp-name-label">Your name</label><input type="text" id="rp-name" autocomplete="off"></div>
+        <div class="rp-field"><label for="rp-contactinfo" id="rp-contactinfo-label">Email or phone</label><input type="text" id="rp-contactinfo" autocomplete="off"></div>
+        <div class="rp-field"><label><input type="checkbox" id="rp-contactme"> <span id="rp-contactme-label">I would like to be contacted about this issue</span></label></div>
+      </div>
+      <div id="rp-step5" hidden>
+        <div class="rp-step-label" id="rp-s5-label">5. Your report summary</div>
+        <div class="rp-summary" id="rp-summary"></div>
+        <button class="rp-copy" id="rp-copy" type="button">Copy summary</button>
+        <div><a class="rp-gov" id="rp-gov" href="https://main.govpilot.com/web/public/8b0dcf03-bc7_Report-a-Concern-Township-of-Parsippany-Troy-Hills?uid=7291&ust=NJ&pu=1&id=0" target="_blank" rel="noopener">Open the GovPilot Report a Concern form</a></div>
+        <p id="rp-final-note">The township receives and tracks reports in GovPilot. Paste or re-enter your summary there, and attach any photos in the form. Nothing is submitted from this page.</p>
+        <p class="rp-warn" id="rp-warn">This form is NOT for emergencies. If there is an immediate risk to health or safety, call 911.</p>
+        <p id="rp-alt">Prefer to call? The Mayor's Action Center takes reports at 973-263-4262 during Town Hall hours.</p>
+      </div>
+      <div class="rp-err" id="rp-err"></div>
+      <div class="rp-nav">
+        <button class="rp-back" id="rp-back" type="button" hidden>Back</button>
+        <button id="rp-next" type="button">Continue</button>
+      </div>
+    </div>
+  </section>
 
   <div class="chatpanel">
     <div id="chat" role="log" aria-live="polite" aria-label="Conversation"></div>
@@ -231,6 +293,34 @@
         { title: 'Garbage & Recycling', desc: 'Pickup schedules and rules.', q: 'Garbage and recycling' }
       ],
       chips: ['When is the next council meeting?', 'Who is the mayor?', 'How do I get a handicap parking placard?', 'How do I get a birth certificate?', 'Senior programs and transportation', 'Garbage and recycling']
+ ,
+      report: {
+        title: 'Report an issue',
+        sub: 'Prepare your report here, then file it in the township\'s GovPilot Report a Concern form, where Parsippany receives and tracks reports.',
+        start: 'Start a report',
+        s1: '1. What type of concern is it?',
+        s2: '2. Where is it?',
+        addr: 'Street address or nearest intersection',
+        locdesc: 'Describe the location (optional)',
+        s3: '3. Describe the concern',
+        desc: 'What is happening, since when, and anything the crew should know',
+        s4: '4. Your contact information (optional)',
+        name: 'Your name',
+        contactinfo: 'Email or phone',
+        contactme: 'I would like to be contacted about this issue',
+        s5: '5. Your report summary',
+        copy: 'Copy summary', copied: 'Copied',
+        gov: 'Open the GovPilot Report a Concern form',
+        finalNote: 'The township receives and tracks reports in GovPilot. Paste or re-enter your summary there, and attach any photos in the form. Nothing is submitted from this page.',
+        warn: 'This form is NOT for emergencies. If there is an immediate risk to health or safety, call 911.',
+        alt: 'Prefer to call? The Mayor\'s Action Center takes reports at 973-263-4262 during Town Hall hours.',
+        back: 'Back', next: 'Continue',
+        errType: 'Please choose a type of concern.',
+        errAddr: 'Please enter the address or nearest intersection.',
+        errDesc: 'Please describe the concern.',
+        sumType: 'Type of concern', sumAddr: 'Address', sumLoc: 'Location description', sumDesc: 'Description', sumName: 'Name', sumContact: 'Contact', sumCb: 'Please contact me about this issue',
+        types: ['Pothole','Streetlight out','Flooding / sewer backup','Illegal parking / abandoned vehicle','Property maintenance (weeds, tall grass, vacant property)','Missed garbage or recycling pickup','Noise','Speeding / traffic safety','Other']
+      },
     },
     es: {
       title: 'Chat para Residentes de Parsippany',
@@ -252,6 +342,34 @@
         { title: 'Basura y Reciclaje', desc: 'Horarios y reglas de recogida.', q: 'Basura y reciclaje' }
       ],
       chips: ['¿Cuándo es la próxima reunión del concejo?', '¿Quién es el alcalde?', '¿Cómo consigo un cartel para discapacitados?', '¿Cómo obtengo un acta de nacimiento?', 'Programas y transporte para personas mayores', 'Basura y reciclaje']
+ ,
+      report: {
+        title: 'Reportar un problema',
+        sub: 'Prepare su reporte aquí y luego preséntelo en el formulario GovPilot Report a Concern del municipio, donde Parsippany recibe y da seguimiento a los reportes.',
+        start: 'Comenzar un reporte',
+        s1: '1. ¿Qué tipo de preocupación es?',
+        s2: '2. ¿Dónde está?',
+        addr: 'Dirección o cruce de calles más cercano',
+        locdesc: 'Describa la ubicación (opcional)',
+        s3: '3. Describa la preocupación',
+        desc: 'Qué está pasando, desde cuándo, y cualquier cosa que la cuadrilla deba saber',
+        s4: '4. Su información de contacto (opcional)',
+        name: 'Su nombre',
+        contactinfo: 'Correo electrónico o teléfono',
+        contactme: 'Quiero que me contacten sobre este asunto',
+        s5: '5. El resumen de su reporte',
+        copy: 'Copiar resumen', copied: 'Copiado',
+        gov: 'Abrir el formulario GovPilot Report a Concern',
+        finalNote: 'El municipio recibe y da seguimiento a los reportes en GovPilot. Pegue o vuelva a escribir su resumen allí, y adjunte las fotos en el formulario. Nada se envía desde esta página.',
+        warn: 'Este formulario NO es para emergencias. Si hay un riesgo inmediato para la salud o la seguridad, llame al 911.',
+        alt: '¿Prefiere llamar? El Centro de Acción del Alcalde recibe reportes al 973-263-4262 en horario del Ayuntamiento.',
+        back: 'Atrás', next: 'Continuar',
+        errType: 'Por favor elija un tipo de preocupación.',
+        errAddr: 'Por favor escriba la dirección o el cruce más cercano.',
+        errDesc: 'Por favor describa la preocupación.',
+        sumType: 'Tipo de preocupación', sumAddr: 'Dirección', sumLoc: 'Descripción de la ubicación', sumDesc: 'Descripción', sumName: 'Nombre', sumContact: 'Contacto', sumCb: 'Por favor contáctenme sobre este asunto',
+        types: ['Bache','Farola apagada','Inundación / respaldo de alcantarillado','Estacionamiento ilegal / vehículo abandonado','Mantenimiento de propiedad (maleza, pasto alto, propiedad vacía)','Recogida de basura o reciclaje perdida','Ruido','Exceso de velocidad / seguridad vial','Otro']
+      },
     }
   };
   var chat = document.getElementById('chat');
@@ -318,6 +436,7 @@
     document.documentElement.lang = lang;
     renderChips();
     renderCards();
+    rpApply();
   }
   function ask(text){
     var q=(text||'').trim(); if(!q) return;
@@ -335,6 +454,80 @@
     e.preventDefault();
     var input=document.getElementById('q'); ask(input.value); input.value='';
   });
+
+  /* ---------- report wizard ---------- */
+  var rp = { step: 1, type: null };
+  function rpR(){ return STR[lang].report; }
+  function rpTypes(){
+    var el=document.getElementById('rp-types'); el.innerHTML='';
+    rpR().types.forEach(function(ty, i){
+      var b=document.createElement('button'); b.type='button'; b.className='rp-type'+(rp.type===i?' sel':''); b.textContent=ty;
+      b.onclick=function(){ rp.type=i; rpTypes(); document.getElementById('rp-err').textContent=''; };
+      el.appendChild(b);
+    });
+  }
+  function rpShow(){
+    for (var s=1;s<=5;s++){ document.getElementById('rp-step'+s).hidden = rp.step!==s; }
+    document.getElementById('rp-back').hidden = rp.step===1;
+    document.getElementById('rp-next').hidden = rp.step===5;
+    document.getElementById('rp-err').textContent='';
+    if (rp.step===5){ document.getElementById('rp-summary').textContent = rpSummary(); }
+  }
+  function rpSummary(){
+    var R=rpR(); var lines=[];
+    lines.push(R.sumType+': '+(rp.type!=null ? R.types[rp.type] : ''));
+    lines.push(R.sumAddr+': '+document.getElementById('rp-addr').value.trim());
+    var ld=document.getElementById('rp-locdesc').value.trim(); if (ld) lines.push(R.sumLoc+': '+ld);
+    lines.push(R.sumDesc+': '+document.getElementById('rp-desc').value.trim());
+    var nm=document.getElementById('rp-name').value.trim(); if (nm) lines.push(R.sumName+': '+nm);
+    var ci=document.getElementById('rp-contactinfo').value.trim(); if (ci) lines.push(R.sumContact+': '+ci);
+    if (document.getElementById('rp-contactme').checked) lines.push(R.sumCb+': Yes');
+    return lines.join('\n');
+  }
+  function rpApply(){
+    var R=rpR();
+    document.getElementById('rp-title').textContent=R.title;
+    document.getElementById('rp-sub').textContent=R.sub;
+    document.getElementById('rp-start').textContent=R.start;
+    document.getElementById('rp-s1-label').textContent=R.s1;
+    document.getElementById('rp-s2-label').textContent=R.s2;
+    document.getElementById('rp-addr-label').textContent=R.addr;
+    document.getElementById('rp-locdesc-label').textContent=R.locdesc;
+    document.getElementById('rp-s3-label').textContent=R.s3;
+    document.getElementById('rp-desc-label').textContent=R.desc;
+    document.getElementById('rp-s4-label').textContent=R.s4;
+    document.getElementById('rp-name-label').textContent=R.name;
+    document.getElementById('rp-contactinfo-label').textContent=R.contactinfo;
+    document.getElementById('rp-contactme-label').textContent=R.contactme;
+    document.getElementById('rp-s5-label').textContent=R.s5;
+    document.getElementById('rp-copy').textContent=R.copy;
+    document.getElementById('rp-gov').textContent=R.gov;
+    document.getElementById('rp-final-note').textContent=R.finalNote;
+    document.getElementById('rp-warn').textContent=R.warn;
+    document.getElementById('rp-alt').textContent=R.alt;
+    document.getElementById('rp-back').textContent=R.back;
+    document.getElementById('rp-next').textContent=R.next;
+    rpTypes();
+    if (rp.step===5){ document.getElementById('rp-summary').textContent = rpSummary(); }
+  }
+  document.getElementById('rp-start').onclick=function(){
+    document.getElementById('rp-wiz').hidden=false;
+    document.getElementById('rp-start').hidden=true;
+    rp.step=1; rpShow();
+  };
+  document.getElementById('rp-back').onclick=function(){ if (rp.step>1){ rp.step--; rpShow(); } };
+  document.getElementById('rp-next').onclick=function(){
+    var R=rpR(); var err=document.getElementById('rp-err');
+    if (rp.step===1 && rp.type===null){ err.textContent=R.errType; return; }
+    if (rp.step===2 && !document.getElementById('rp-addr').value.trim()){ err.textContent=R.errAddr; return; }
+    if (rp.step===3 && !document.getElementById('rp-desc').value.trim()){ err.textContent=R.errDesc; return; }
+    if (rp.step<5){ rp.step++; rpShow(); }
+  };
+  document.getElementById('rp-copy').onclick=function(){
+    var txt=document.getElementById('rp-summary').textContent;
+    if (navigator.clipboard){ navigator.clipboard.writeText(txt); }
+    document.getElementById('rp-copy').textContent=rpR().copied;
+  };
   document.getElementById('btn-en').onclick=function(){ lang='en'; applyLang(); };
   document.getElementById('btn-es').onclick=function(){ lang='es'; applyLang(); };
   applyLang();
