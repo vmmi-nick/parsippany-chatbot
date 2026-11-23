@@ -129,18 +129,49 @@
   @media (prefers-color-scheme: dark){
     .composer{background:linear-gradient(to bottom,rgba(28,23,21,0),var(--bg) 30%)}
   }
-  form{display:flex;gap:8px}
-  input[type=text]{
-    flex:1;min-width:0;padding:13px 15px;border:1px solid var(--border);border-radius:999px;
-    font:inherit;font-size:1rem;background:var(--panel);color:var(--text);box-shadow:var(--shadow);
+  form{display:flex;gap:8px;align-items:flex-end}
+  textarea#q{
+    flex:1;min-width:0;padding:13px 15px;border:1px solid var(--border);border-radius:18px;
+    font:inherit;font-size:1rem;line-height:1.45;background:var(--panel);color:var(--text);box-shadow:var(--shadow);
+    resize:none;overflow-y:hidden;min-height:96px;max-height:212px;
   }
-  input[type=text]::placeholder{color:var(--muted)}
+  textarea#q::placeholder{color:var(--muted)}
   button.send{
     background:var(--burgundy);color:#fff;border:0;border-radius:999px;
     padding:13px 24px;cursor:pointer;font:inherit;font-size:1rem;font-weight:600;flex:0 0 auto;
   }
   button.send:hover{background:var(--burgundy-dark)}
   button.send:disabled{opacity:.55;cursor:default}
+
+  /* ---------- voice (mic input + read-aloud) ---------- */
+  .voicebar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 10px}
+  .voice-enc{font-size:.93rem;color:var(--muted)}
+  button.mic{
+    background:var(--panel);color:var(--burgundy);border:1px solid var(--gold);border-radius:999px;
+    padding:12px 22px;cursor:pointer;flex:0 0 auto;font:inherit;font-size:1.06rem;font-weight:600;
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;box-shadow:var(--shadow);
+  }
+  button.mic:hover{background:var(--gold-pale)}
+  button.mic svg{width:24px;height:24px;fill:currentColor;flex:0 0 auto}
+  button.mic.listening{background:var(--burgundy);color:#fff;border-color:var(--burgundy);animation:micpulse 1.2s ease-in-out infinite}
+  @keyframes micpulse{0%,100%{box-shadow:0 0 0 0 rgba(2,71,81,.45)}50%{box-shadow:0 0 0 12px rgba(2,71,81,0)}}
+  @media (prefers-color-scheme: dark){
+    button.mic{color:var(--gold-soft)}
+    button.mic.listening{color:#fff}
+  }
+  .voicehint{display:none;font-size:.85rem;color:var(--gold-deep);font-weight:600;margin-top:8px}
+  .voicehint.on{display:block}
+  .voicemsg{display:none;font-size:.9rem;color:var(--burgundy);font-weight:600;margin-top:8px}
+  .voicemsg.on{display:block}
+  .speakbtn{
+    margin-top:10px;background:var(--panel);border:1px solid var(--gold);color:var(--text);
+    border-radius:999px;padding:5px 12px;cursor:pointer;font:inherit;font-size:.82rem;
+    display:inline-flex;align-items:center;gap:6px;
+  }
+  .speakbtn:hover{background:var(--gold-pale)}
+  .speakbtn svg{width:14px;height:14px;fill:currentColor;flex:0 0 auto}
+  .speakbtn.speaking{background:var(--burgundy);border-color:var(--burgundy);color:#fff}
+  .rp-summary-wrap .speakbtn{margin-left:10px}
 
   /* ---------- footer ---------- */
   footer{
@@ -258,7 +289,7 @@
   <div class="composer">
     <form id="askform">
       <label class="sr-only" for="q" id="q-label">Ask about township services</label>
-      <input type="text" id="q" autocomplete="off" placeholder="Ask about township services...">
+      <textarea id="q" rows="3" autocomplete="off" placeholder="Ask about township services..."></textarea>
       <button class="send" id="sendbtn" type="submit">Ask</button>
     </form>
   </div>
@@ -284,6 +315,7 @@
       tryLabel: 'Try asking:',
       qLabel: 'Ask about township services',
       greeting: 'Hello. I can help you find township services, forms, phone numbers and meeting dates. Ask me a question, or tap one of the topics below.',
+      voice: { mic: 'Tap & Talk', listening: 'Listening...', listen: 'Listen', stop: 'Stop', encourage: 'Skip the typing. Tap the mic, ask out loud, get your answer.', nohear: "I didn't catch that. Tap the microphone and try again.", blocked: 'Microphone access is blocked. Allow the microphone in your browser settings, or type your question instead.', network: 'Voice recognition needs an internet connection.' },
       cards: [
         { title: 'Council Meetings', desc: 'Meeting dates, times and agendas.', q: 'When is the next council meeting?' },
         { title: "Mayor's Office", desc: 'Who leads the township.', q: 'Who is the mayor?' },
@@ -333,6 +365,7 @@
       tryLabel: 'Pruebe preguntar:',
       qLabel: 'Pregunte sobre los servicios del municipio',
       greeting: 'Hola. Puedo ayudarle a encontrar servicios del municipio, formularios, números de teléfono y fechas de reuniones. Hágame una pregunta o toque uno de los temas abajo.',
+      voice: { mic: 'Toque y hable', listening: 'Escuchando...', listen: 'Escuchar', stop: 'Detener', encourage: 'Sin escribir. Toque el micrófono, pregunte en voz alta y reciba su respuesta.', nohear: 'No escuché eso. Toque el micrófono e inténtelo de nuevo.', blocked: 'El acceso al micrófono está bloqueado. Permita el micrófono en los ajustes de su navegador, o escriba su pregunta.', network: 'El reconocimiento de voz necesita una conexión a internet.' },
       cards: [
         { title: 'Reuniones del Concejo', desc: 'Fechas, horarios y agendas de las reuniones.', q: '¿Cuándo es la próxima reunión del concejo?' },
         { title: 'Oficina del Alcalde', desc: 'Quién dirige el municipio.', q: '¿Quién es el alcalde?' },
@@ -397,7 +430,9 @@
     if (data.source){
       html+='<div class="source">'+esc(STR[lang].source)+': <a href="'+esc(data.source)+'" target="_blank" rel="noopener">'+esc(data.sourceLabel||data.source)+'</a></div>';
     }
-    div.innerHTML=html; chat.appendChild(div); window.scrollTo(0, document.body.scrollHeight);
+    div.innerHTML=html;
+    if (voice.synthOK) attachSpeak(div, div.textContent.replace(/\s+/g,' ').trim(), data.lang);
+    chat.appendChild(div); window.scrollTo(0, document.body.scrollHeight);
   }
   function renderChips(){
     chipsEl.innerHTML='';
@@ -434,6 +469,14 @@
     document.getElementById('btn-en').setAttribute('aria-pressed', lang==='en' ? 'true' : 'false');
     document.getElementById('btn-es').setAttribute('aria-pressed', lang==='es' ? 'true' : 'false');
     document.documentElement.lang = lang;
+    if (voice.micBtn){
+      voice.micBtn.setAttribute('aria-label', STR[lang].voice.mic);
+      var micLabel=voice.micBtn.querySelector('.mic-label');
+      if (micLabel) micLabel.textContent=STR[lang].voice.mic;
+    }
+    if (voice.enc) voice.enc.textContent=STR[lang].voice.encourage;
+    if (voice.hint) voice.hint.textContent = STR[lang].voice.listening;
+    if (voice.rpSpeakBtn && !(voice.speakState && voice.speakState.btn===voice.rpSpeakBtn)) resetSpeakBtn(voice.rpSpeakBtn, lang);
     renderChips();
     renderCards();
     rpApply();
@@ -452,7 +495,7 @@
   }
   document.getElementById('askform').addEventListener('submit', function(e){
     e.preventDefault();
-    var input=document.getElementById('q'); ask(input.value); input.value='';
+    var input=document.getElementById('q'); ask(input.value); input.value=''; autoGrow();
   });
 
   /* ---------- report wizard ---------- */
@@ -528,9 +571,345 @@
     if (navigator.clipboard){ navigator.clipboard.writeText(txt); }
     document.getElementById('rp-copy').textContent=rpR().copied;
   };
+  /* ---------- voice: microphone input + read-aloud ----------
+     Both features are feature-detected. When an API is missing, its
+     control is never created and the page behaves exactly as before.
+     Dictation fills the same composer textarea and goes through the
+     same form submit path as typing. While the report wizard is open,
+     dictation instead fills the wizard's current step: a spoken type
+     at step 1 selects it, and a final transcript in a field step fills
+     the field and advances exactly one step via the Continue button.
+     Interim text is only ever displayed, never submitted or advanced. */
+  var MIC_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2z"/></svg>';
+  var SPEAK_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
+  var STOP_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>';
+  var voice = {
+    SR: window.SpeechRecognition || window.webkitSpeechRecognition || null,
+    synthOK: ('speechSynthesis' in window) && ('SpeechSynthesisUtterance' in window),
+    rec: null, listening: false, micBtn: null, hint: null, enc: null, speakState: null,
+    msg: null, gotFinal: false, anyResult: false, pendingMsg: null, msgShown: false,
+    userStopped: false, timer: null, voiceList: null, rpSpeakBtn: null
+  };
+  function showVoiceMsg(text){
+    if (!voice.msg) return;
+    voice.msg.textContent=text;
+    voice.msg.classList.add('on');
+    voice.msgShown=true;
+  }
+  function hideVoiceMsg(){
+    if (!voice.msg) return;
+    voice.msg.classList.remove('on');
+    voice.msgShown=false;
+  }
+  function submitAskForm(){
+    var form=document.getElementById('askform');
+    var input=document.getElementById('q');
+    if (form.requestSubmit) form.requestSubmit();
+    else { ask(input.value); input.value=''; autoGrow(); }
+  }
+  /* ----- report wizard dictation routing ----- */
+  function wizardOpen(){
+    var w=document.getElementById('rp-wiz');
+    return !!(w && !w.hidden);
+  }
+  function wizardField(){
+    if (!wizardOpen()) return null;
+    if (rp.step===2) return document.getElementById('rp-addr');
+    if (rp.step===3) return document.getElementById('rp-desc');
+    if (rp.step===4) return document.getElementById('rp-name');
+    return null;
+  }
+  function normText(s){ return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
+  function matchRpType(text){
+    var n=' '+normText(text)+' ';
+    var langs=['en','es'];
+    for (var li=0; li<langs.length; li++){
+      var types=STR[langs[li]].report.types;
+      for (var i=0;i<types.length;i++){
+        if (n.indexOf(' '+normText(types[i])+' ')!==-1) return i;
+      }
+    }
+    return null;
+  }
+  function advanceWizard(){
+    document.getElementById('rp-next').click();
+  }
+  function initVoice(){
+    if (voice.SR){
+      var form=document.getElementById('askform');
+      var bar=document.createElement('div');
+      bar.className='voicebar'; bar.id='voicebar';
+      var btn=document.createElement('button');
+      btn.type='button'; btn.id='micbtn'; btn.className='mic';
+      btn.innerHTML=MIC_SVG+'<span class="mic-label">'+esc(STR[lang].voice.mic)+'</span>';
+      btn.setAttribute('aria-label', STR[lang].voice.mic);
+      btn.setAttribute('aria-pressed', 'false');
+      bar.appendChild(btn);
+      var enc=document.createElement('span');
+      enc.className='voice-enc'; enc.id='voice-enc';
+      enc.textContent=STR[lang].voice.encourage;
+      bar.appendChild(enc);
+      form.parentNode.insertBefore(bar, form);
+      voice.micBtn=btn;
+      voice.enc=enc;
+      var hint=document.createElement('div');
+      hint.id='voicehint'; hint.className='voicehint'; hint.setAttribute('aria-live', 'polite');
+      hint.textContent=STR[lang].voice.listening;
+      form.parentNode.appendChild(hint);
+      voice.hint=hint;
+      var msg=document.createElement('div');
+      msg.id='voicemsg'; msg.className='voicemsg'; msg.setAttribute('aria-live', 'polite');
+      form.parentNode.appendChild(msg);
+      voice.msg=msg;
+      document.getElementById('q').addEventListener('input', hideVoiceMsg);
+      form.addEventListener('submit', hideVoiceMsg);
+      btn.onclick=toggleMic;
+    }
+    if (voice.synthOK){
+      /* Listen control on the prepared report summary (step 5). It
+         reads whatever the summary currently shows, in the current
+         language, so it never goes stale on a language switch. */
+      var rpCopy=document.getElementById('rp-copy');
+      if (rpCopy && rpCopy.parentNode){
+        var rb=makeSpeakButton(
+          function(){ return document.getElementById('rp-summary').textContent.replace(/\s+/g,' ').trim(); },
+          function(){ return lang; }
+        );
+        rpCopy.parentNode.insertBefore(rb, rpCopy.nextSibling);
+        voice.rpSpeakBtn=rb;
+      }
+    }
+  }
+  function setListening(on){
+    voice.listening=on;
+    if (voice.micBtn){
+      voice.micBtn.classList.toggle('listening', on);
+      voice.micBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    if (voice.hint) voice.hint.classList.toggle('on', on);
+  }
+  function toggleMic(){
+    if (!voice.SR) return;
+    if (voice.listening && voice.rec){
+      voice.userStopped=true;
+      try { voice.rec.stop(); } catch (e) {}
+      return;
+    }
+    hideVoiceMsg();
+    var rec;
+    try { rec=new voice.SR(); } catch (e) { return; }
+    voice.rec=rec;
+    voice.gotFinal=false;
+    voice.anyResult=false;
+    voice.pendingMsg=null;
+    voice.msgShown=false;
+    voice.userStopped=false;
+    rec.lang = lang==='es' ? 'es-US' : 'en-US';
+    rec.interimResults=true;
+    rec.maxAlternatives=1;
+    rec.onresult=function(ev){
+      voice.anyResult=true;
+      var finalText='', interimText='';
+      for (var i=0; i<ev.results.length; i++){
+        if (ev.results[i].isFinal) finalText+=ev.results[i][0].transcript;
+        else interimText+=ev.results[i][0].transcript;
+      }
+      finalText=finalText.trim();
+      var field=wizardField();
+      if (finalText){
+        voice.gotFinal=true;
+        if (field){
+          field.value=finalText;
+          advanceWizard();
+        } else if (wizardOpen() && rp.step===1){
+          var idx=matchRpType(finalText);
+          if (idx!==null){
+            rp.type=idx; rpTypes();
+            document.getElementById('rp-err').textContent='';
+            advanceWizard();
+          } else {
+            var input=document.getElementById('q');
+            input.value=finalText; autoGrow();
+            submitAskForm();
+          }
+        } else {
+          var input2=document.getElementById('q');
+          input2.value=finalText; autoGrow();
+          submitAskForm();
+        }
+      } else if (interimText){
+        /* Show what is being heard, live, without submitting or
+           advancing anything. Only the final transcript acts. */
+        if (field) field.value=interimText;
+        else {
+          var input3=document.getElementById('q');
+          input3.value=interimText; autoGrow();
+        }
+      }
+    };
+    rec.onerror=function(ev){
+      var kind=ev && ev.error ? ev.error : '';
+      if (kind==='not-allowed' || kind==='service-not-allowed') voice.pendingMsg=STR[lang].voice.blocked;
+      else if (kind==='network') voice.pendingMsg=STR[lang].voice.network;
+      else voice.pendingMsg=STR[lang].voice.nohear;
+      setListening(false);
+      if (!voice.gotFinal && !voice.userStopped && !voice.msgShown) showVoiceMsg(voice.pendingMsg);
+    };
+    rec.onend=function(){
+      if (voice.timer){ clearTimeout(voice.timer); voice.timer=null; }
+      setListening(false);
+      if (!voice.gotFinal && !voice.userStopped && !voice.msgShown){
+        showVoiceMsg(voice.pendingMsg || STR[lang].voice.nohear);
+      }
+      voice.pendingMsg=null;
+    };
+    try {
+      rec.start();
+      setListening(true);
+      /* Safety net: if nothing at all comes back within about 10
+         seconds, stop; onend then shows the didn't-catch message. */
+      voice.timer=setTimeout(function(){
+        voice.timer=null;
+        if (voice.listening && !voice.anyResult && voice.rec===rec){
+          try { rec.stop(); } catch (e) {}
+        }
+      }, 10000);
+    } catch (e) { setListening(false); }
+  }
+  /* Voice list caching: browsers often return an empty list from the
+     first getVoices() call and fill it in later, firing voiceschanged.
+     Cache whatever is available and refresh on that event; speaking
+     never waits for the list. */
+  function refreshVoices(){
+    if (!voice.synthOK) return;
+    try {
+      var vs=window.speechSynthesis.getVoices();
+      if (vs) voice.voiceList=vs;
+    } catch (e) {}
+  }
+  if (voice.synthOK){
+    refreshVoices();
+    try {
+      if (window.speechSynthesis.addEventListener) window.speechSynthesis.addEventListener('voiceschanged', refreshVoices);
+      else window.speechSynthesis.onvoiceschanged=refreshVoices;
+    } catch (e) {}
+  }
+  var VOICE_NATURAL=['google','premium','enhanced','natural','neural'];
+  var VOICE_GOOD={
+    en: ['samantha','ava','allison','susan','zira','jenny','aria'],
+    es: ['mónica','monica','paulina','jorge','juan','sabina']
+  };
+  var VOICE_AVOID=['albert','bells','cellos','whisper','zarvox','trinoids','boing','bubbles','bad news','good news','deranged','hysterical','pipe organ','fred','junior','ralph','kathy','vicki','princess','bruce','wobble'];
+  function nameHas(name, list){
+    for (var i=0;i<list.length;i++){ if (name.indexOf(list[i])>=0) return true; }
+    return false;
+  }
+  function pickVoice(speakLang){
+    try {
+      var voices=(voice.voiceList && voice.voiceList.length) ? voice.voiceList : null;
+      if (!voices){
+        refreshVoices();
+        voices=voice.voiceList || [];
+      }
+      var prefix=speakLang, best=null, bestTier=99, bestLocale=99;
+      for (var i=0;i<voices.length;i++){
+        var vl=(voices[i].lang || '').toLowerCase().replace(/_/g, '-');
+        if (vl.indexOf(prefix)!==0) continue;
+        var name=(voices[i].name || '').toLowerCase();
+        /* Quality tiers: 0 natural/modern, 1 known good device voice,
+           2 anything else, 3 novelty/legacy robotic (used only when
+           nothing else speaks the language). Within a tier, the exact
+           US locale wins. */
+        var tier;
+        if (nameHas(name, VOICE_NATURAL)) tier=0;
+        else if (nameHas(name, VOICE_GOOD[prefix] || [])) tier=1;
+        else if (!nameHas(name, VOICE_AVOID)) tier=2;
+        else tier=3;
+        var locale=(vl===prefix+'-us') ? 0 : 1;
+        if (tier<bestTier || (tier===bestTier && locale<bestLocale)){
+          best=voices[i]; bestTier=tier; bestLocale=locale;
+        }
+      }
+      return best;
+    } catch (e) { return null; }
+  }
+  function resetSpeakBtn(btn, speakLang){
+    btn.classList.remove('speaking');
+    btn.innerHTML=SPEAK_SVG+'<span>'+esc(STR[speakLang].voice.listen)+'</span>';
+    btn.setAttribute('aria-label', STR[speakLang].voice.listen);
+  }
+  function stopSpeak(){
+    if (voice.synthOK) { try { window.speechSynthesis.cancel(); } catch (e) {} }
+    if (voice.speakState){
+      var st=voice.speakState; voice.speakState=null;
+      resetSpeakBtn(st.btn, st.lang);
+    }
+  }
+  function makeSpeakButton(getText, getLang){
+    var btn=document.createElement('button');
+    btn.type='button'; btn.className='speakbtn';
+    var speakLang = getLang()==='es' ? 'es' : 'en';
+    btn.innerHTML=SPEAK_SVG+'<span>'+esc(STR[speakLang].voice.listen)+'</span>';
+    btn.setAttribute('aria-label', STR[speakLang].voice.listen);
+    btn.onclick=function(){
+      if (voice.speakState && voice.speakState.btn===btn){ stopSpeak(); return; }
+      stopSpeak();
+      var sl = getLang()==='es' ? 'es' : 'en';
+      var text=getText();
+      if (!text) return;
+      var utt=new SpeechSynthesisUtterance(text);
+      utt.lang = sl==='es' ? 'es-US' : 'en-US';
+      utt.rate=1.08;
+      utt.pitch=1.0;
+      var v=pickVoice(sl); if (v) utt.voice=v;
+      voice.speakState={ btn: btn, lang: sl };
+      btn.classList.add('speaking');
+      btn.innerHTML=STOP_SVG+'<span>'+esc(STR[sl].voice.stop)+'</span>';
+      btn.setAttribute('aria-label', STR[sl].voice.stop);
+      utt.onend=utt.onerror=function(){
+        if (voice.speakState && voice.speakState.btn===btn){
+          voice.speakState=null; resetSpeakBtn(btn, sl);
+        }
+      };
+      window.speechSynthesis.speak(utt);
+    };
+    return btn;
+  }
+  function attachSpeak(div, text, answerLang){
+    if (!voice.synthOK || !text) return;
+    var speakLang = answerLang==='es' ? 'es' : (answerLang==='en' ? 'en' : lang);
+    var btn=makeSpeakButton(
+      function(){ return text; },
+      function(){ return speakLang; }
+    );
+    div.appendChild(btn);
+  }
+
+  /* ---------- composer: multi-line textarea with auto-grow ----------
+     Starts at 3 lines, grows with the text up to about 8 lines, then
+     scrolls. Enter submits; Shift+Enter inserts a newline. After a
+     submit the box clears and shrinks back to its starting height. */
+  var qEl=document.getElementById('q');
+  function autoGrow(){
+    qEl.style.height='auto';
+    var max=212;
+    qEl.style.height=Math.min(qEl.scrollHeight, max)+'px';
+    qEl.style.overflowY=qEl.scrollHeight>max ? 'auto' : 'hidden';
+  }
+  qEl.addEventListener('input', autoGrow);
+  qEl.addEventListener('keydown', function(e){
+    if (e.key==='Enter' && !e.shiftKey){
+      e.preventDefault();
+      var form=document.getElementById('askform');
+      if (form.requestSubmit) form.requestSubmit();
+      else form.dispatchEvent(new Event('submit', { cancelable: true }));
+    }
+  });
+
   document.getElementById('btn-en').onclick=function(){ lang='en'; applyLang(); };
   document.getElementById('btn-es').onclick=function(){ lang='es'; applyLang(); };
   applyLang();
+  initVoice();
   addBot({lead: STR.en.greeting, details:[], contact:[]});
 </script>
 </body>
