@@ -350,6 +350,14 @@
     div.innerHTML=html;
     if (voice.synthOK) attachSpeak(div, div.textContent.replace(/\s+/g,' ').trim(), data.lang);
     chat.appendChild(div); scrollChat();
+    return div;
+  }
+  var greetEl=null;
+  function refreshGreeting(){
+    if (greetEl && chat.children.length===1 && chat.firstChild===greetEl){
+      greetEl.remove();
+      greetEl=addBot({lead: STR[lang].greeting, details:[], contact:[], lang: lang});
+    }
   }
   function openReport(){
     if (document.getElementById('rp-wiz').hidden) document.getElementById('rp-start').click();
@@ -377,6 +385,7 @@
     if (voice.hint) voice.hint.textContent = STR[lang].voice.listening;
     if (voice.rpSpeakBtn && !(voice.speakState && voice.speakState.btn===voice.rpSpeakBtn)) resetSpeakBtn(voice.rpSpeakBtn, lang);
     rpApply();
+    refreshGreeting();
   }
 
   /* ---------- report wizard ----------
@@ -812,7 +821,7 @@
   document.getElementById('btn-es').onclick=function(){ lang='es'; applyLang(); };
   applyLang();
   initVoice();
-  addBot({lead: STR.en.greeting, details:[], contact:[]});
+  greetEl=addBot({lead: STR.en.greeting, details:[], contact:[], lang: 'en'});
 </script>
 </body>
 </html>
