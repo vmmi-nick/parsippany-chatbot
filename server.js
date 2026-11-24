@@ -92,19 +92,32 @@ function detectLang(question, requested) {
 const EMERGENCY = [
   'fire', 'smoke', 'burning', 'robbery', 'robbed', 'break in', 'breaking in', 'gun', 'shooting',
   'heart attack', 'chest pain', 'not breathing', 'unconscious', 'overdose', 'choking', 'bleeding',
-  'car accident with injuries', 'emergency', 'fuego', 'incendio', 'humo', 'robo', 'atraco', 'disparo',
-  'emergencia', 'no respira', 'inconsciente', 'sangrando', 'ataque al corazon'
+  'car accident with injuries', 'smell gas', 'gas leak', 'gas smell', 'smells like gas',
+  'fight', 'fighting', 'assault', 'assaulted', 'hit and run',
+  'downed power line', 'downed wire', 'power line down', 'wire down', 'wires down',
+  'i have an emergency', 'this is an emergency', 'there is an emergency',
+  'fuego', 'incendio', 'humo', 'robo', 'atraco', 'disparo',
+  'olor a gas', 'fuga de gas', 'huele a gas', 'pelea', 'peleando', 'agresion', 'asalto',
+  'atropello y fuga', 'choque y fuga', 'se dio a la fuga',
+  'hay una emergencia', 'tengo una emergencia', 'es una emergencia',
+  'no respira', 'inconsciente', 'sangrando', 'ataque al corazon'
 ];
 
+// Whole-word / whole-phrase matching only (question arrives space-padded).
+// Substring matching here was dangerous: 'gun' inside the Spanish word
+// 'pregunta' sent ordinary Spanish questions to the 911 answer, and the
+// bare word 'emergency' fired on 'emergency rent assistance'. The bare
+// emergency words are therefore scoped to phrases above.
 function isEmergency(qn) {
-  return EMERGENCY.some((w) => qn.includes(normalize(w)));
+  return EMERGENCY.some((w) => qn.includes(' ' + normalize(w) + ' '));
 }
 
 // Services Parsippany does not provide; never let a generic keyword match
 // (for example "license") route these to a township office.
+// Driver's licenses and vehicle registrations used to be intercepted
+// here; they now route to the verified MVC refer-out topic instead.
 const NOT_TOWNSHIP = [
-  "driver's license", 'drivers license', 'driver license', 'renew my license plate registration',
-  'licencia de conducir', 'car registration renewal', 'vehicle registration renewal', 'passport'
+  'passport', 'pasaporte', 'passport renewal', 'renovar pasaporte'
 ];
 
 const MEETING_HINTS = [
