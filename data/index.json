@@ -77,13 +77,20 @@
      "disabled parking",
      "disability placard",
      "handicap placard",
-     "accessible parking"
+     "accessible parking",
+     "handicap placards",
+     "disabled placards",
+     "handicap parking permit",
+     "disability parking",
+     "accessible placard"
     ],
     "es": [
      "estacionamiento para discapacitados",
      "cartel para discapacitados",
      "placa para discapacitados",
-     "estacionamiento accesible"
+     "estacionamiento accesible",
+     "carteles para discapacitados",
+     "permiso de estacionamiento para discapacitados"
     ]
    },
    "en": {
@@ -146,13 +153,20 @@
      "birth certificate",
      "death certificate",
      "vital records",
-     "certified copy"
+     "certified copy",
+     "birth certificates",
+     "death certificates",
+     "get a copy of my birth certificate",
+     "copy of my birth certificate",
+     "copies of birth certificates"
     ],
     "es": [
      "acta de nacimiento",
      "certificado de nacimiento",
      "acta de defuncion",
-     "registros vitales"
+     "registros vitales",
+     "actas de nacimiento",
+     "copia de mi acta de nacimiento"
     ]
    },
    "en": {
@@ -206,12 +220,17 @@
     "en": [
      "marriage license",
      "civil union license",
-     "get married"
+     "get married",
+     "marriage licenses",
+     "marriage certificate",
+     "get a marriage license"
     ],
     "es": [
      "licencia de matrimonio",
      "licencia de union civil",
-     "casarse"
+     "casarse",
+     "licencias de matrimonio",
+     "certificado de matrimonio"
     ]
    },
    "en": {
@@ -257,12 +276,21 @@
     "en": [
      "dog license",
      "license my dog",
-     "dog registration"
+     "dog registration",
+     "dog licenses",
+     "license a dog",
+     "register my dog",
+     "dog licence",
+     "license my dogs",
+     "register a dog"
     ],
     "es": [
      "licencia para perros",
      "registrar mi perro",
-     "licencia de perro"
+     "licencia de perro",
+     "licencias para perros",
+     "registrar a mi perro",
+     "registrar un perro"
     ]
    },
    "en": {
@@ -404,13 +432,20 @@
      "town hall",
      "clerk office",
      "what time does town hall open",
-     "municipal building"
+     "municipal building",
+     "what time does town hall close",
+     "town hall open",
+     "hours of town hall",
+     "when does town hall open",
+     "when does town hall close",
+     "municipal building hours"
     ],
     "es": [
      "horario del ayuntamiento",
      "ayuntamiento",
      "oficina del secretario",
-     "a que hora abre el ayuntamiento"
+     "a que hora abre el ayuntamiento",
+     "a que hora cierra el ayuntamiento"
     ]
    },
    "en": {
@@ -470,13 +505,18 @@
      "tax bill",
      "pay my taxes",
      "tax payment",
-     "when are taxes due"
+     "when are taxes due",
+     "tax bills",
+     "property tax",
+     "pay taxes online",
+     "tax due dates"
     ],
     "es": [
      "impuestos a la propiedad",
      "impuesto predial",
      "pagar mis impuestos",
-     "cuando vencen los impuestos"
+     "cuando vencen los impuestos",
+     "pagar impuestos en linea"
     ]
    },
    "en": {
@@ -601,13 +641,22 @@
      "pay my ticket",
      "traffic ticket",
      "parking ticket",
-     "pay ticket online"
+     "pay ticket online",
+     "parking tickets",
+     "traffic tickets",
+     "pay my tickets",
+     "speeding ticket",
+     "tickets",
+     "pay tickets"
     ],
     "es": [
      "pagar una multa",
      "pagar mi multa",
      "multa de trafico",
-     "multa de estacionamiento"
+     "multa de estacionamiento",
+     "multas de estacionamiento",
+     "multas de transito",
+     "pagar mis multas"
     ]
    },
    "en": {
@@ -659,12 +708,18 @@
     "en": [
      "municipal court",
      "court date",
-     "court office"
+     "court office",
+     "court hours",
+     "court sessions",
+     "when is court",
+     "court appearance"
     ],
     "es": [
      "tribunal municipal",
      "fecha de corte",
-     "tribunal"
+     "tribunal",
+     "horario del tribunal",
+     "sesiones del tribunal"
     ]
    },
    "en": {
@@ -717,12 +772,19 @@
      "sewer bill",
      "water bill",
      "water utility",
-     "sewer utility"
+     "sewer utility",
+     "sewer bills",
+     "water bills",
+     "pay my water bill",
+     "pay my sewer bill",
+     "utility bill",
+     "water and sewer bill"
     ],
     "es": [
      "factura de alcantarillado",
      "factura de agua",
-     "servicio de agua"
+     "servicio de agua",
+     "facturas de agua"
     ]
    },
    "en": {
@@ -783,7 +845,13 @@
      "what day is garbage",
      "garbage district",
      "recycling district",
-     "what plastics can I recycle"
+     "what plastics can I recycle",
+     "recycling center",
+     "recycling center hours",
+     "recycling yard",
+     "recycling yard hours",
+     "trash schedule",
+     "garbage day"
     ],
     "es": [
      "basura",
@@ -793,7 +861,10 @@
      "carton",
      "recogida de carton",
      "que dia pasa la basura",
-     "distrito de basura"
+     "distrito de basura",
+     "centro de reciclaje",
+     "horario del centro de reciclaje",
+     "dia de basura"
     ]
    },
    "en": {
@@ -868,12 +939,19 @@
      "was not picked up",
      "not picked up",
      "garbage was not picked up",
-     "did not pick up my garbage"
+     "did not pick up my garbage",
+     "trash not picked up",
+     "recycling not picked up",
+     "garbage not picked up",
+     "missed my pickup",
+     "they missed my garbage"
     ],
     "es": [
      "no recogieron",
      "recogida perdida",
-     "no pasaron por la basura"
+     "no pasaron por la basura",
+     "no recogieron mi basura",
+     "no recogieron el reciclaje"
     ]
    },
    "en": {
@@ -933,7 +1011,11 @@
      "white goods",
      "refrigerator pickup",
      "washer pickup",
-     "moving out"
+     "moving out",
+     "couch pickup",
+     "mattress pickup",
+     "sofa pickup",
+     "furniture disposal"
     ],
     "es": [
      "recogida de objetos grandes",
@@ -941,7 +1023,8 @@
      "objetos voluminosos",
      "electrodomesticos",
      "recogida de electrodomesticos",
-     "mudanza"
+     "mudanza",
+     "recogida de colchon"
     ]
    },
    "en": {
@@ -1118,7 +1201,9 @@
      "not plowed",
      "was not plowed",
      "plowed",
-     "snow"
+     "snow",
+     "snowplow",
+     "snow plowing schedule"
     ],
     "es": [
      "quitanieves",
@@ -1180,13 +1265,20 @@
      "street light",
      "street light out",
      "light out",
-     "dark street"
+     "dark street",
+     "traffic light",
+     "traffic light out",
+     "traffic signal",
+     "streetlights",
+     "street lights"
     ],
     "es": [
      "farola",
      "luz de la calle",
      "farola apagada",
-     "alumbrado"
+     "alumbrado",
+     "semaforo",
+     "farolas"
     ]
    },
    "en": {
@@ -1251,12 +1343,24 @@
      "building permit",
      "construction permit",
      "building permits",
-     "permit for"
+     "permit for",
+     "build a shed",
+     "shed permit",
+     "do construction",
+     "deck permit",
+     "fence permit",
+     "renovation permit",
+     "home renovation",
+     "build a deck",
+     "add a fence"
     ],
     "es": [
      "permiso de construccion",
      "permiso de obra",
-     "permisos"
+     "permisos",
+     "construir un cobertizo",
+     "hacer construccion",
+     "renovacion"
     ]
    },
    "en": {
@@ -1300,13 +1404,16 @@
      "seniors",
      "senior center",
      "senior programs",
-     "older adults"
+     "older adults",
+     "senior transportation",
+     "senior centre"
     ],
     "es": [
      "personas mayores",
      "centro de personas mayores",
      "programas para mayores",
-     "adultos mayores"
+     "adultos mayores",
+     "transporte para personas mayores"
     ]
    },
    "en": {
@@ -1469,12 +1576,15 @@
     "en": [
      "library",
      "library hours",
-     "parsippany library"
+     "parsippany library",
+     "library card",
+     "get a library card"
     ],
     "es": [
      "biblioteca",
      "horario de la biblioteca",
-     "biblioteca de parsippany"
+     "biblioteca de parsippany",
+     "tarjeta de la biblioteca"
     ]
    },
    "en": {
@@ -1594,13 +1704,26 @@
      "animal control",
      "stray dog",
      "rabies clinic",
-     "lost dog"
+     "lost dog",
+     "dead animal",
+     "dead deer",
+     "dead animal in the road",
+     "animal in the road",
+     "stray cat",
+     "lost cat",
+     "found dog",
+     "dead animal pickup",
+     "remove a dead animal"
     ],
     "es": [
      "control de animales",
      "perro callejero",
      "clinica de rabia",
-     "perro perdido"
+     "perro perdido",
+     "animal muerto",
+     "ciervo muerto",
+     "animal en la calle",
+     "gato perdido"
     ]
    },
    "en": {
@@ -1608,7 +1731,8 @@
     "details": [
      "The shelter is at 1069 Parsippany Boulevard.",
      "The township runs a free annual rabies clinic for dogs and cats; dates are posted on parsippany.net.",
-     "Animal Shelter hours are Monday through Friday, 3:00 PM to 5:00 PM, and Saturday and Sunday, 9:00 AM to 12:00 PM. Parsippany has a leash law: dogs off their property must be on a leash."
+     "Animal Shelter hours are Monday through Friday, 3:00 PM to 5:00 PM, and Saturday and Sunday, 9:00 AM to 12:00 PM. Parsippany has a leash law: dogs off their property must be on a leash.",
+     "For a dead animal on a township street, call Animal Control & Shelter; for a dead animal on a county or state road, the Mayor's Action Center can direct you to the right crew."
     ],
     "contact": [
      {
@@ -1623,7 +1747,8 @@
     "details": [
      "El refugio está en 1069 Parsippany Boulevard.",
      "El municipio ofrece una clínica anual gratuita contra la rabia para perros y gatos; las fechas se publican en parsippany.net.",
-     "El horario del Refugio de Animales es de lunes a viernes, de 3:00 PM a 5:00 PM, y sábado y domingo, de 9:00 AM a 12:00 PM. Parsippany tiene una ley de correa: los perros fuera de su propiedad deben llevar correa."
+     "El horario del Refugio de Animales es de lunes a viernes, de 3:00 PM a 5:00 PM, y sábado y domingo, de 9:00 AM a 12:00 PM. Parsippany tiene una ley de correa: los perros fuera de su propiedad deben llevar correa.",
+     "Para un animal muerto en una calle del municipio, llame a Control de Animales y Refugio; para un animal muerto en una carretera del condado o del estado, el Centro de Acción del Alcalde puede dirigirle al equipo correcto."
     ],
     "contact": [
      {
@@ -1642,12 +1767,15 @@
     "en": [
      "clerk",
      "registrar",
-     "township clerk"
+     "township clerk",
+     "township clerk office",
+     "clerk office hours"
     ],
     "es": [
      "secretario",
      "registro civil",
-     "secretario municipal"
+     "secretario municipal",
+     "oficina del secretario"
     ]
    },
    "en": {
@@ -2072,7 +2200,13 @@
      "unkept property",
      "overgrown lawn",
      "overgrown weeds",
-     "unkempt property"
+     "unkempt property",
+     "no heat",
+     "no hot water",
+     "heat not working",
+     "no heating",
+     "landlord not fixing",
+     "heat complaint"
     ],
     "es": [
      "mantenimiento de propiedad",
@@ -2081,7 +2215,11 @@
      "maleza",
      "propiedad abandonada",
      "propiedad descuidada",
-     "cesped alto"
+     "cesped alto",
+     "no tengo calefaccion",
+     "sin calefaccion",
+     "no hay calefaccion",
+     "sin agua caliente"
     ]
    },
    "en": {
@@ -2279,6 +2417,309 @@
     ]
    },
    "source": "https://www.parsippany.net/Contact?menuId=hsVBvG7NnqI%3D",
+   "sourceLabel": "Township of Parsippany-Troy Hills official site"
+  },
+  {
+   "id": "mvc",
+   "keywords": {
+    "en": [
+     "driver's license",
+     "drivers license",
+     "driver license",
+     "renew my license",
+     "license renewal",
+     "driver license renewal",
+     "vehicle registration",
+     "car registration",
+     "car registration renewal",
+     "registration renewal",
+     "renew my registration",
+     "motor vehicle commission",
+     "mvc",
+     "real id",
+     "license plate renewal"
+    ],
+    "es": [
+     "licencia de conducir",
+     "renovar mi licencia",
+     "renovacion de licencia",
+     "registro de vehiculo",
+     "renovar el registro",
+     "comision de vehiculos motorizados",
+     "placa de vehiculo"
+    ]
+   },
+   "en": {
+    "lead": "Driver's licenses and vehicle registrations are handled by the New Jersey Motor Vehicle Commission (MVC), not by the township.",
+    "details": [
+     "Most drivers can renew a license online the same day through MyMVC, even if the renewal form says to visit an agency; the renewed license is effective immediately and the card arrives by mail in about 2 to 4 weeks. If your address changed, change it before renewing online.",
+     "If you are not eligible to renew online, you must make an appointment at an MVC Licensing Center. The Morris County Licensing Center is in Randolph at 160 Canfield Avenue; there is also a Licensing Center in Wayne at 481 Route 46 West.",
+     "Vehicle registrations can be renewed online, by mail with the renewal notice, or in person by appointment. The renewal notice arrives by mail about three months before your registration expires."
+    ],
+    "contact": [
+     {
+      "label": "Renew your driver's license online (MyMVC)",
+      "value": "mymvc.state.nj.us",
+      "href": "https://mymvc.state.nj.us/apps/renew-driver-license.html"
+     },
+     {
+      "label": "Renew your vehicle registration online (MyMVC)",
+      "value": "mymvc.state.nj.us",
+      "href": "https://mymvc.state.nj.us/reg-renewal/"
+     },
+     {
+      "label": "NJ MVC, driver licenses and registrations",
+      "value": "609-292-6500",
+      "href": "tel:+16092926500"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Las licencias de conducir y los registros de vehículos los maneja la Comisión de Vehículos Motorizados de Nueva Jersey (MVC), no el municipio.",
+    "details": [
+     "La mayoría de los conductores puede renovar su licencia en línea el mismo día a través de MyMVC, incluso si el formulario de renovación dice que debe visitar una agencia; la licencia renovada es efectiva de inmediato y la tarjeta llega por correo en unas 2 a 4 semanas. Si su dirección cambió, cámbiela antes de renovar en línea.",
+     "Si no es elegible para renovar en línea, debe hacer una cita en un Centro de Licencias del MVC. El Centro de Licencias del condado de Morris está en Randolph, en 160 Canfield Avenue; también hay un Centro de Licencias en Wayne, en 481 Route 46 West.",
+     "Los registros de vehículos pueden renovarse en línea, por correo con el aviso de renovación, o en persona con cita. El aviso de renovación llega por correo unos tres meses antes de que venza su registro."
+    ],
+    "contact": [
+     {
+      "label": "Renueve su licencia de conducir en línea (MyMVC)",
+      "value": "mymvc.state.nj.us",
+      "href": "https://mymvc.state.nj.us/apps/renew-driver-license.html"
+     },
+     {
+      "label": "Renueve el registro de su vehículo en línea (MyMVC)",
+      "value": "mymvc.state.nj.us",
+      "href": "https://mymvc.state.nj.us/reg-renewal/"
+     },
+     {
+      "label": "MVC de NJ, licencias de conducir y registros",
+      "value": "609-292-6500",
+      "href": "tel:+16092926500"
+     }
+    ]
+   },
+   "source": "https://www.nj.gov/mvc/license/licrenew.htm",
+   "sourceLabel": "NJ Motor Vehicle Commission"
+  },
+  {
+   "id": "power-outage",
+   "keywords": {
+    "en": [
+     "power outage",
+     "power is out",
+     "power out",
+     "no power",
+     "electricity out",
+     "outage",
+     "report an outage",
+     "power went out",
+     "lost power"
+    ],
+    "es": [
+     "apagon",
+     "corte de luz",
+     "no hay luz",
+     "sin electricidad",
+     "se fue la luz",
+     "reportar un apagon"
+    ]
+   },
+   "en": {
+    "lead": "Parsippany's electric utility is JCP&L, and power outages are reported to JCP&L, not to the township.",
+    "details": [
+     "Report an outage by phone at 1-888-LIGHTSS (1-888-544-4877), online on JCP&L's outage page, or by text: text OUT to 544487 (if you are not enrolled, text REG to 544487 first). Text STAT to 544487 for the latest update on your reported outage.",
+     "Check the New Jersey outage map, linked below, for reported outages and estimated restoration times in your area.",
+     "If you see a downed power line, call 911 immediately, stay at least 30 feet away, and keep others away; the 911 operator will report the downed line to the utility."
+    ],
+    "contact": [
+     {
+      "label": "JCP&L outage line",
+      "value": "1-888-544-4877",
+      "href": "tel:+18885444877"
+     },
+     {
+      "label": "Report an outage online (JCP&L)",
+      "value": "firstenergycorp.com",
+      "href": "https://www.firstenergycorp.com/outages_help/Report_Power_Outages.html"
+     },
+     {
+      "label": "New Jersey outage map",
+      "value": "outages.firstenergycorp.com",
+      "href": "http://outages.firstenergycorp.com/nj.html"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La compañía eléctrica de Parsippany es JCP&L, y los apagones se reportan a JCP&L, no al municipio.",
+    "details": [
+     "Reporte un apagón por teléfono al 1-888-LIGHTSS (1-888-544-4877), en línea en la página de apagones de JCP&L, o por mensaje de texto: envíe OUT al 544487 (si no está inscrito, envíe primero REG al 544487). Envíe STAT al 544487 para la información más reciente sobre su apagón reportado.",
+     "Consulte el mapa de apagones de Nueva Jersey, enlazado abajo, para ver los apagones reportados y los tiempos estimados de restauración en su área.",
+     "Si ve un cable eléctrico caído, llame al 911 de inmediato, manténgase al menos a 30 pies de distancia y aleje a los demás; el operador del 911 reportará el cable caído a la compañía."
+    ],
+    "contact": [
+     {
+      "label": "Línea de apagones de JCP&L",
+      "value": "1-888-544-4877",
+      "href": "tel:+18885444877"
+     },
+     {
+      "label": "Reportar un apagón en línea (JCP&L)",
+      "value": "firstenergycorp.com",
+      "href": "https://www.firstenergycorp.com/outages_help/Report_Power_Outages.html"
+     },
+     {
+      "label": "Mapa de apagones de Nueva Jersey",
+      "value": "outages.firstenergycorp.com",
+      "href": "http://outages.firstenergycorp.com/nj.html"
+     }
+    ]
+   },
+   "source": "https://www.firstenergycorp.com/outages_help/Report_Power_Outages.html",
+   "sourceLabel": "JCP&L / FirstEnergy official site"
+  },
+  {
+   "id": "snap",
+   "keywords": {
+    "en": [
+     "snap",
+     "food stamps",
+     "food assistance",
+     "apply for snap",
+     "snap benefits",
+     "ebt",
+     "cupones de alimentos",
+     "food help",
+     "help buying food",
+     "nj snap"
+    ],
+    "es": [
+     "cupones de alimentos",
+     "asistencia alimentaria",
+     "solicitar snap",
+     "beneficios de snap",
+     "ayuda para comprar comida",
+     "estampillas de comida"
+    ]
+   },
+   "en": {
+    "lead": "SNAP food assistance is a state program run through Morris County, not the township; Parsippany residents apply through the Morris County Office of Temporary Assistance.",
+    "details": [
+     "SNAP provides a monthly allowance to help income-eligible individuals and families buy food. The county agency reviews your application and decides eligibility.",
+     "You can apply online at MyNJHelps.gov, by phone at 973-326-7800 (Monday through Friday, 8:30 AM to 4:30 PM), or in person at the Morris County Office of Temporary Assistance, 340 West Hanover Avenue, Morristown.",
+     "You can screen for eligibility for SNAP and other programs at NJHelps.gov before applying."
+    ],
+    "contact": [
+     {
+      "label": "Apply online (MyNJHelps)",
+      "value": "mynjhelps.gov",
+      "href": "https://www.mynjhelps.gov/"
+     },
+     {
+      "label": "Morris County Office of Temporary Assistance",
+      "value": "973-326-7800",
+      "href": "tel:+19733267800"
+     }
+    ]
+   },
+   "es": {
+    "lead": "La asistencia alimentaria SNAP es un programa estatal administrado a través del condado de Morris, no del municipio; los residentes de Parsippany solicitan a través de la Oficina de Asistencia Temporal del Condado de Morris.",
+    "details": [
+     "SNAP proporciona una asignación mensual para ayudar a personas y familias elegibles por ingresos a comprar alimentos. La agencia del condado revisa su solicitud y decide la elegibilidad.",
+     "Puede solicitar en línea en MyNJHelps.gov, por teléfono al 973-326-7800 (de lunes a viernes, de 8:30 AM a 4:30 PM), o en persona en la Oficina de Asistencia Temporal del Condado de Morris, 340 West Hanover Avenue, Morristown.",
+     "Puede verificar su elegibilidad para SNAP y otros programas en NJHelps.gov antes de solicitar."
+    ],
+    "contact": [
+     {
+      "label": "Solicitar en línea (MyNJHelps)",
+      "value": "mynjhelps.gov",
+      "href": "https://www.mynjhelps.gov/"
+     },
+     {
+      "label": "Oficina de Asistencia Temporal del Condado de Morris",
+      "value": "973-326-7800",
+      "href": "tel:+19733267800"
+     }
+    ]
+   },
+   "source": "https://www.nj.gov/humanservices/njsnap/apply/ways/",
+   "sourceLabel": "NJ SNAP / Morris County official sites"
+  },
+  {
+   "id": "new-resident",
+   "keywords": {
+    "en": [
+     "new resident",
+     "just moved",
+     "moved to parsippany",
+     "moving to parsippany",
+     "new to town",
+     "moved here",
+     "new in town",
+     "just moved here",
+     "welcome packet"
+    ],
+    "es": [
+     "nuevo residente",
+     "me acabo de mudar",
+     "recien mudado",
+     "nuevo en el pueblo",
+     "mudanza a parsippany"
+    ]
+   },
+   "en": {
+    "lead": "Welcome to Parsippany. These are the first township stops for a new resident, all in one place.",
+    "details": [
+     "Town Hall is at 1001 Parsippany Boulevard, open Monday through Friday, 9:00 AM to 5:00 PM; the main number is 973-263-4350, and the Mayor's Action Center at 973-263-4262 can route any question.",
+     "Garbage and recycling are collected at the curb on a sanitation district schedule; look up your district days in the garbage and recycling answer here, or on the township Recycling page.",
+     "If you have a dog of licensing age (seven months), license it with the Township Clerk within ten days of acquiring it; bring a copy of its rabies certificate.",
+     "Register to vote or update your registration through the Township Clerk's office, and get a library card at the Parsippany Library, 449 Halsey Road."
+    ],
+    "contact": [
+     {
+      "label": "Mayor's Action Center",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Town Hall main number",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Township Clerk / Registrar",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "es": {
+    "lead": "Bienvenido a Parsippany. Estas son las primeras paradas municipales para un nuevo residente, todas en un solo lugar.",
+    "details": [
+     "El Ayuntamiento está en 1001 Parsippany Boulevard, abierto de lunes a viernes, de 9:00 AM a 5:00 PM; el número principal es 973-263-4350, y el Centro de Acción del Alcalde, al 973-263-4262, puede dirigir cualquier pregunta.",
+     "La basura y el reciclaje se recogen en la acera según un calendario por distritos de saneamiento; consulte los días de su distrito en la respuesta de basura y reciclaje aquí, o en la página de Reciclaje del municipio.",
+     "Si tiene un perro en edad de licencia (siete meses), regístrelo con el Secretario Municipal dentro de los diez días de adquirirlo; traiga una copia de su certificado de vacunación contra la rabia.",
+     "Regístrese para votar o actualice su registro a través de la oficina del Secretario Municipal, y obtenga una tarjeta de la Biblioteca de Parsippany, en 449 Halsey Road."
+    ],
+    "contact": [
+     {
+      "label": "Centro de Acción del Alcalde",
+      "value": "973-263-4262",
+      "href": "tel:+19732634262"
+     },
+     {
+      "label": "Número principal del Ayuntamiento",
+      "value": "973-263-4350",
+      "href": "tel:+19732634350"
+     },
+     {
+      "label": "Secretario Municipal / Registro Civil",
+      "value": "973-263-4351",
+      "href": "tel:+19732634351"
+     }
+    ]
+   },
+   "source": "https://www.parsippany.net/",
    "sourceLabel": "Township of Parsippany-Troy Hills official site"
   }
  ]
