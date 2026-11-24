@@ -82,7 +82,7 @@ function detectLang(question, requested) {
   if (requested === 'es') return 'es';
   const q = String(question || '');
   const n = ' ' + normalize(q) + ' ';
-  const esHints = [' quien ', ' cuando ', ' donde ', ' como ', ' acta ', ' alcalde ', ' reunion ', ' concejo ', ' basura ', ' biblioteca ', ' multa ', ' permiso ', ' impuesto ', ' discapacitado', ' estacionamiento ', ' piscina ', ' parque ', ' farola ', ' luz ', ' hay ', ' calle ', ' carro ', ' vehiculo ', ' velocidad ', ' propiedad ', ' hierba ', ' pasto ', ' inundacion ', ' sotano ', ' abandonado ', ' vecinos ', ' necesito ', ' reportar ', ' quiero ', ' autos ', ' exceso ', ' agua '];
+  const esHints = [' quien ', ' cuando ', ' donde ', ' como ', ' acta ', ' alcalde ', ' reunion ', ' concejo ', ' basura ', ' biblioteca ', ' multa ', ' permiso ', ' impuesto ', ' discapacitado', ' estacionamiento ', ' piscina ', ' parque ', ' farola ', ' luz ', ' hay ', ' calle ', ' carro ', ' vehiculo ', ' velocidad ', ' propiedad ', ' hierba ', ' pasto ', ' inundacion ', ' sotano ', ' abandonado ', ' vecinos ', ' necesito ', ' reportar ', ' quiero ', ' autos ', ' exceso ', ' agua ', ' tengo ', ' pregunta ', ' preguntas ', ' sobre ', ' para ', ' una ', ' por ', ' favor ', ' gracias ', ' hola ', ' buenos ', ' buenas ', ' del ', ' los ', ' las ', ' son ', ' esta ', ' estan ', ' mi ', ' mis ', ' su ', ' al ', ' en '];
   const hintCount = esHints.filter((h) => n.includes(h)).length;
   if (/[¿¡áéíóúñ]/i.test(q) || hintCount >= 2) return 'es';
   if (requested === 'en') return 'en';
